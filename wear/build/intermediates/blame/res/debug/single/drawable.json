@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/card_background.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable/card_background.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/close_button.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable/close_button.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    }
+]

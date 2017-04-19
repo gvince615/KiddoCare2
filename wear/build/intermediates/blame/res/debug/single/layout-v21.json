@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/layout-v21/overlay_confirmation.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/layout-v21/dismiss_overlay.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/layout-v21/accept_deny_dialog.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/layout-v21/accept_deny_dialog.xml"
+    }
+]

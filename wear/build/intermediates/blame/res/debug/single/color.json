@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/color/card_grey_text_color.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/color/card_grey_text_color.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/color/circular_button.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/color/circular_button.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/color/card_text_color.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/color/card_text_color.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

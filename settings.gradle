@@ -1,0 +1,1 @@
+include ':mobile', ':wear', ':com.github.gfranks.collapse.calendar-1.0'

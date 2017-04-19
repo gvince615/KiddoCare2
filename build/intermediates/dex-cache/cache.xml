@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.9/1d2a6ee94f2fcaa2e2b588cbd5a4da1cb1f1b9ff/joda-time-2.9.9-no-tzdb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d2a6ee94f2fcaa2e2b588cbd5a4da1cb1f1b9ff">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.9.9-no-tzdb_74e24f9006fcb151fe93afc0f6932a8e0a14e249/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/.android/build-cache/e6157b4495295d2e76c4d07aa4c5f0990e8fffc5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a3f3350c2d52c145827d5c5ae8f2d68dd871ce2">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eb147708fe548e5993e2c37797e79932812f056a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae0396a0dc993b1b14890f5bdad0af73d07739f3">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b5e99ec73c48efa96a168b6c53b643092909bb8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_672903d91a105c732495e1e77ef9d01025d2d710/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c877b2c372dd26a46a0fe1c0fe07f186fb2ac26">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e189db31618afce21439f21ce6daf33736cc0f01/classes.dex" />
+    </item>
+
+</items>

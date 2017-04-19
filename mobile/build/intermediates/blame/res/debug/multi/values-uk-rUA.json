@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk-rUA/values-uk-rUA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/values-uk-rUA/values-uk-rUA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            }
+        ]
+    }
+]

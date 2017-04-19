@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('com.github.gfranks.collapse.calendar-1.0.aar'))
