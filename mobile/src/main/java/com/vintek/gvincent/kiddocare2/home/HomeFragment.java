@@ -39,7 +39,6 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
   //2017-04-14 format from CCV
   SimpleDateFormat dateParser = new SimpleDateFormat("yyyy-mm-dd");
   // Format for output
-
   SimpleDateFormat dateFormatter = new SimpleDateFormat("dd MMM yyyy");
 
   public static HomeFragment newInstance() {
