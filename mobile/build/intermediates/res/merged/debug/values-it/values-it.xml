@@ -116,6 +116,7 @@
     <string msgid="9093949757757445117" name="joda_time_android_preposition_for_date">"in data <ns1:g id="DATE">%s</ns1:g>"</string>
     <string msgid="5506831244263083793" name="joda_time_android_preposition_for_time">"alle ore <ns1:g id="TIME">%s</ns1:g>"</string>
     <string msgid="1818557177829411417" name="joda_time_android_relative_time">"<ns1:g id="DATE">%1$s</ns1:g>, <ns1:g id="TIME">%2$s</ns1:g>"</string>
+    <string name="picker_today">oggi</string>
     <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

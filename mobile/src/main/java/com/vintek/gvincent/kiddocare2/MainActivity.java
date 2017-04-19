@@ -1,6 +1,5 @@
 package com.vintek.gvincent.kiddocare2;
 
-import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     //Manually displaying the first fragment - one time only
     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
     transaction.replace(R.id.content, HomeFragment.newInstance());
-    transaction.commit();
+    transaction.commitNowAllowingStateLoss();
 
     //Used to select an item programmatically
     //bottomNavigationView.getMenu().getItem(2).setChecked(true);
@@ -71,9 +70,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
         transaction.replace(R.id.content, selectedFragment);
-
-        transaction.commit();
+        transaction.commitNowAllowingStateLoss();
         return true;
       }
     });

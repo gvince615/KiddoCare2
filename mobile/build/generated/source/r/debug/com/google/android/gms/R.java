@@ -16,17 +16,17 @@ public final class R {
         public static final int scopeUris = 0x7f01011c;
     }
     public static final class color {
-        public static final int common_google_signin_btn_text_dark = 0x7f0e0077;
+        public static final int common_google_signin_btn_text_dark = 0x7f0e007e;
         public static final int common_google_signin_btn_text_dark_default = 0x7f0e0020;
         public static final int common_google_signin_btn_text_dark_disabled = 0x7f0e0021;
         public static final int common_google_signin_btn_text_dark_focused = 0x7f0e0022;
         public static final int common_google_signin_btn_text_dark_pressed = 0x7f0e0023;
-        public static final int common_google_signin_btn_text_light = 0x7f0e0078;
+        public static final int common_google_signin_btn_text_light = 0x7f0e007f;
         public static final int common_google_signin_btn_text_light_default = 0x7f0e0024;
         public static final int common_google_signin_btn_text_light_disabled = 0x7f0e0025;
         public static final int common_google_signin_btn_text_light_focused = 0x7f0e0026;
         public static final int common_google_signin_btn_text_light_pressed = 0x7f0e0027;
-        public static final int common_google_signin_btn_tint = 0x7f0e0079;
+        public static final int common_google_signin_btn_tint = 0x7f0e0080;
     }
     public static final class drawable {
         public static final int common_full_open_on_phone = 0x7f02005a;
@@ -48,8 +48,8 @@ public final class R {
         public static final int common_google_signin_btn_text_light_focused = 0x7f02006a;
         public static final int common_google_signin_btn_text_light_normal = 0x7f02006b;
         public static final int common_google_signin_btn_text_light_normal_background = 0x7f02006c;
-        public static final int googleg_disabled_color_18 = 0x7f020075;
-        public static final int googleg_standard_color_18 = 0x7f020076;
+        public static final int googleg_disabled_color_18 = 0x7f020077;
+        public static final int googleg_standard_color_18 = 0x7f020078;
     }
     public static final class id {
         public static final int adjust_height = 0x7f0f003c;
@@ -63,8 +63,8 @@ public final class R {
         public static final int normal = 0x7f0f0010;
         public static final int radio = 0x7f0f0066;
         public static final int standard = 0x7f0f0044;
-        public static final int text = 0x7f0f00ba;
-        public static final int text2 = 0x7f0f00b8;
+        public static final int text = 0x7f0f00cb;
+        public static final int text2 = 0x7f0f00c9;
         public static final int toolbar = 0x7f0f0081;
         public static final int wide = 0x7f0f0045;
         public static final int wrap_content = 0x7f0f0024;

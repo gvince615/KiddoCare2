@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout
-    android:id="@+id/coordinator_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:id="@+id/coordinator_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     >
 
   <LinearLayout
@@ -19,17 +19,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:paddingRight="5dp"
-        android:paddingLeft="5dp"
         android:paddingBottom="5dp"
-        app:ccv_state="week"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:ccv_allowStateChange="true"
         app:ccv_arrowColor="@color/colorWhite"
-        app:ccv_headerTextColor="@color/colorWhite"
-        app:ccv_weekDayTextColor="@color/colorWhite"
         app:ccv_dayTextColor="@color/colorWhite"
         app:ccv_eventIndicatorColor="@color/kiddoCareLogoParentColor"
+        app:ccv_headerTextColor="@color/colorWhite"
         app:ccv_selectedDayBackgroundColor="@color/colorPrimaryDark"
-        app:ccv_allowStateChange="true"
+        app:ccv_state="week"
+        app:ccv_weekDayTextColor="@color/colorWhite"
         />
 
     <LinearLayout
@@ -38,25 +38,25 @@
         android:orientation="horizontal">
 
       <TextView
-          android:layout_weight="1.85"
-          android:background="@color/colorPrimary"
           android:layout_width="0dp"
           android:layout_height="27dp"
           android:layout_gravity="end"
-          android:textSize="18sp"
+          android:layout_weight="1.85"
+          android:background="@color/colorPrimary"
           android:gravity="center_horizontal"
-          android:textColor="@color/colorWhite"
           android:paddingStart="5dp"
-          android:textStyle="bold"
           android:text="Calendar events for the selected day"
+          android:textColor="@color/colorWhite"
+          android:textSize="18sp"
+          android:textStyle="bold"
           />
 
       <ImageButton
-          android:layout_weight=".15"
           android:id="@+id/cal_button"
           android:layout_width="30dp"
           android:layout_height="30dp"
           android:layout_marginTop="-3dp"
+          android:layout_weight=".15"
           android:background="@color/colorPrimary"
           android:scaleType="centerInside"
           android:src="@drawable/ic_arrow_down_bold_hexagon_outline_white_48dp"
@@ -75,11 +75,12 @@
 </LinearLayout>
 
   <android.support.design.widget.FloatingActionButton
+      android:id="@+id/add_event_fab"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      app:layout_anchor="@id/cal_events"
       android:layout_margin="@dimen/fab_margin"
       android:src="@drawable/ic_plus_black_48dp"
+      app:layout_anchor="@id/cal_events"
       app:layout_anchorGravity="end|bottom"/>
 
 </android.support.design.widget.CoordinatorLayout>

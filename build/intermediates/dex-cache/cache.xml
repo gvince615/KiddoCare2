@@ -21,12 +21,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/gvincent/.gradle/caches/modules-2/files-2.1/com.github.frankiesardo/icepick-processor/2.3.6/4f2556c14b3556d3f65845d9644fdef32ee13831/icepick-processor-2.3.6.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ae0396a0dc993b1b14890f5bdad0af73d07739f3">
-        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b5e99ec73c48efa96a168b6c53b643092909bb8d/classes.dex" />
+        sha1="4f2556c14b3556d3f65845d9644fdef32ee13831">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/icepick-processor-2.3.6_01bfbd73060e3806e14a42b683eb5083bce6b6d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/.gradle/caches/modules-2/files-2.1/com.github.frankiesardo/icepick/2.3.6/c67092eec40738c16bdc5b9255a59c295cc16219/icepick-2.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c67092eec40738c16bdc5b9255a59c295cc16219">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/icepick-2.3.6_969f6e6048b35fe74e3a45ba194711f7708a4977/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -36,6 +45,33 @@
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_672903d91a105c732495e1e77ef9d01025d2d710/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed727a8d9f247e2050281cb083f1c77b09dcb5cd">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/guava-15.0_f126b3f9c2599f3420bf0905dba0a6219f96655e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae0396a0dc993b1b14890f5bdad0af73d07739f3">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b5e99ec73c48efa96a168b6c53b643092909bb8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b66fdcdd6de56fe5d0b9e18b5334817bb7ebb0ed">
+        <dex dex="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3c192ad8f488f28aac2c4dd8c07f6b76b9300d36/classes.dex" />
     </item>
     <item
         is-multidex="true"

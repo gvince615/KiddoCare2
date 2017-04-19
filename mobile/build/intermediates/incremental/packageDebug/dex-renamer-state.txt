@@ -1,4 +1,4 @@
-#Mon Apr 17 11:43:53 EDT 2017
+#Wed Apr 19 16:30:25 EDT 2017
 base.0=/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b5e99ec73c48efa96a168b6c53b643092909bb8d
 renamed.1=classes.dex
 renamed.0=classes2.dex

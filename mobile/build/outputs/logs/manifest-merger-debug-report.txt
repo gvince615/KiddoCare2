@@ -20,16 +20,16 @@ MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/gvincent/.
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/gvincent/.android/build-cache/e09132bf222acb2ab0d8dc3d5ec43cf1c614654a/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincent/.android/build-cache/6081a8619d67bf597096640d1290f8a021966eea/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:design:25.3.1] /Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/168f0be941a25f228942910e3e5ab0eca10a741f/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/0362ccee0a5a47768f8c78402c2fa20320bcdc2f/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/gvincent/.android/build-cache/32f64db917a348fec80f699d0916c0d667f157e6/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/gvincent/.android/build-cache/25b0cc41933182deb8cfe1c8ed7b200002de0030/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/gvincent/.android/build-cache/23b0209c8cc42cb555bfd8b428c6d6de84334da1/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/gvincent/.android/build-cache/499828866c650f0a1af95a659d54a45b338699a4/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/gvincent/.android/build-cache/ea7f99d2f2207dc52c9e150764f629538118823a/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/gvincent/.android/build-cache/329d75de858bddb0a49e460dd1a8c59238d5519d/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/gvincent/.android/build-cache/25b0cc41933182deb8cfe1c8ed7b200002de0030/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/gvincent/.android/build-cache/d2573c21589a233544508c880cd8de9c7f58b8f8/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/gvincent/.android/build-cache/329d75de858bddb0a49e460dd1a8c59238d5519d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/168f0be941a25f228942910e3e5ab0eca10a741f/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/0362ccee0a5a47768f8c78402c2fa20320bcdc2f/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/gvincent/.android/build-cache/c700a4e6b491fb05b62c1fb8bb36f4d0f05a6eb8/output/AndroidManifest.xml:29:5-20
 MERGED from [KiddoCare2:com.github.gfranks.collapse.calendar-1.0:unspecified] /Users/gvincent/.android/build-cache/e6157b4495295d2e76c4d07aa4c5f0990e8fffc5/output/AndroidManifest.xml:11:5-47
 	android:label
@@ -86,17 +86,18 @@ MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/gvincent/.
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/gvincent/.android/build-cache/e09132bf222acb2ab0d8dc3d5ec43cf1c614654a/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincent/.android/build-cache/6081a8619d67bf597096640d1290f8a021966eea/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:design:25.3.1] /Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/168f0be941a25f228942910e3e5ab0eca10a741f/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/0362ccee0a5a47768f8c78402c2fa20320bcdc2f/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/gvincent/.android/build-cache/32f64db917a348fec80f699d0916c0d667f157e6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/gvincent/.android/build-cache/25b0cc41933182deb8cfe1c8ed7b200002de0030/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/gvincent/.android/build-cache/bc833357db65271fd52adc14c1b4ba2bda818939/output/AndroidManifest.xml:20:5-43
+MERGED from [com.github.florent37:singledateandtimepicker:1.1.0] /Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.3.1] /Users/gvincent/.android/build-cache/23b0209c8cc42cb555bfd8b428c6d6de84334da1/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/gvincent/.android/build-cache/499828866c650f0a1af95a659d54a45b338699a4/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/gvincent/.android/build-cache/ea7f99d2f2207dc52c9e150764f629538118823a/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/gvincent/.android/build-cache/329d75de858bddb0a49e460dd1a8c59238d5519d/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/gvincent/.android/build-cache/25b0cc41933182deb8cfe1c8ed7b200002de0030/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/gvincent/.android/build-cache/bc833357db65271fd52adc14c1b4ba2bda818939/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/gvincent/.android/build-cache/d2573c21589a233544508c880cd8de9c7f58b8f8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/gvincent/.android/build-cache/329d75de858bddb0a49e460dd1a8c59238d5519d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/168f0be941a25f228942910e3e5ab0eca10a741f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/0362ccee0a5a47768f8c78402c2fa20320bcdc2f/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] /Users/gvincent/.android/build-cache/c700a4e6b491fb05b62c1fb8bb36f4d0f05a6eb8/output/AndroidManifest.xml:21:5-23:58
 MERGED from [KiddoCare2:com.github.gfranks.collapse.calendar-1.0:unspecified] /Users/gvincent/.android/build-cache/e6157b4495295d2e76c4d07aa4c5f0990e8fffc5/output/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
@@ -123,17 +124,17 @@ ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincen
 		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincent/.android/build-cache/6081a8619d67bf597096640d1290f8a021966eea/output/AndroidManifest.xml:20:20-65
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] /Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/168f0be941a25f228942910e3e5ab0eca10a741f/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/0362ccee0a5a47768f8c78402c2fa20320bcdc2f/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] /Users/gvincent/.android/build-cache/32f64db917a348fec80f699d0916c0d667f157e6/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/gvincent/.android/build-cache/25b0cc41933182deb8cfe1c8ed7b200002de0030/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/gvincent/.android/build-cache/bc833357db65271fd52adc14c1b4ba2bda818939/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-v4:25.3.1] /Users/gvincent/.android/build-cache/23b0209c8cc42cb555bfd8b428c6d6de84334da1/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/gvincent/.android/build-cache/499828866c650f0a1af95a659d54a45b338699a4/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/gvincent/.android/build-cache/ea7f99d2f2207dc52c9e150764f629538118823a/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/gvincent/.android/build-cache/329d75de858bddb0a49e460dd1a8c59238d5519d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/gvincent/.android/build-cache/25b0cc41933182deb8cfe1c8ed7b200002de0030/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/gvincent/.android/build-cache/bc833357db65271fd52adc14c1b4ba2bda818939/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/gvincent/.android/build-cache/d2573c21589a233544508c880cd8de9c7f58b8f8/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/gvincent/.android/build-cache/329d75de858bddb0a49e460dd1a8c59238d5519d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/168f0be941a25f228942910e3e5ab0eca10a741f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/gvincent/.android/build-cache/0362ccee0a5a47768f8c78402c2fa20320bcdc2f/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] /Users/gvincent/.android/build-cache/c700a4e6b491fb05b62c1fb8bb36f4d0f05a6eb8/output/AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] /Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/AndroidManifest.xml:27:9-31

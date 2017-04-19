@@ -44,16 +44,24 @@
         "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/fragment_settings.xml",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/fragment_settings.xml"
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/bottom_sheet_double_picker.xml",
+        "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/layout/bottom_sheet_double_picker.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/layout/design_text_input_password_icon.xml"
     },
     {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/fragment_settings.xml",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/fragment_settings.xml"
+    },
+    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
         "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/bottom_sheet_double_picker_bottom_sheet.xml",
+        "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/layout/bottom_sheet_double_picker_bottom_sheet.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
@@ -120,6 +128,10 @@
         "source": "/Users/gvincent/.android/build-cache/e6157b4495295d2e76c4d07aa4c5f0990e8fffc5/output/res/layout/calendar_layout.xml"
     },
     {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/calendar_event_dialog.xml",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_dialog.xml"
+    },
+    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/layout/design_navigation_menu_item.xml"
     },
@@ -162,6 +174,10 @@
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/single_day_picker.xml",
+        "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/layout/single_day_picker.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/calendar_event_layout.xml",
@@ -242,6 +258,10 @@
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/content_new_registration_scrolling.xml",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/content_new_registration_scrolling.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/bottom_sheet_picker.xml",
+        "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/layout/bottom_sheet_picker.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/layout/fragment_home.xml",
