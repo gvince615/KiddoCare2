@@ -1,5 +1,6 @@
 package com.vintek.gvincent.kiddocare2.home;
 
+import android.annotation.SuppressLint;
 import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
@@ -34,11 +35,14 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
   CoordinatorLayout coordinatorLayout;
   CollapsibleCalendarView calendarView;
   CalendarEventsRVAdapter adapter;
+
   ArrayList<CalendarEventsData> cards = new ArrayList<>();
 
   //2017-04-14 format from CCV
+  @SuppressLint("SimpleDateFormat")
   SimpleDateFormat dateParser = new SimpleDateFormat("yyyy-mm-dd");
   // Format for output
+  @SuppressLint("SimpleDateFormat")
   SimpleDateFormat dateFormatter = new SimpleDateFormat("dd MMM yyyy");
 
   public static HomeFragment newInstance() {
