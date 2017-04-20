@@ -1,7 +1,7 @@
 package com.vintek.gvincent.kiddocare2.reports;
 
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,9 +12,22 @@ import com.vintek.gvincent.kiddocare2.R;
  */
 
 public class ReportsFragment extends Fragment {
+  private static ReportsFragment instance = null;
+
   public static ReportsFragment newInstance() {
-    ReportsFragment fragment = new ReportsFragment();
-    return fragment;
+    if (instance == null) {
+      // new instance
+      instance = new ReportsFragment();
+      // sets data to bundle
+      Bundle bundle = new Bundle();
+      //bundle.putSerializable("CARDS", cards);
+
+      // set data to fragment
+      instance.setArguments(bundle);
+      return instance;
+    } else {
+      return instance;
+    }
   }
 
   @Override

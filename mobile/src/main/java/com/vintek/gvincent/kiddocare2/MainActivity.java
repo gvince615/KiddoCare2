@@ -27,18 +27,11 @@ public class MainActivity extends AppCompatActivity {
     setupNavigation();
     setupActionBar();
 
-
-
     //Manually displaying the first fragment - one time only
     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
     transaction.replace(R.id.content, HomeFragment.newInstance());
     transaction.commitNowAllowingStateLoss();
-
-    //Used to select an item programmatically
-    //bottomNavigationView.getMenu().getItem(2).setChecked(true);
   }
-
-
 
   private void setupActionBar() {
     getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -66,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
             break;
           case R.id.navigation_settings:
             selectedFragment = SettingsFragment.newInstance();
+            break;
+          default:
+            selectedFragment = HomeFragment.newInstance();
             break;
         }
 

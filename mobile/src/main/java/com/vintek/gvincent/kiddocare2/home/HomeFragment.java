@@ -18,7 +18,6 @@ import com.github.gfranks.collapsible.calendar.CollapsibleCalendarView;
 import com.github.gfranks.collapsible.calendar.model.CollapsibleState;
 import com.vintek.gvincent.kiddocare2.R;
 import icepick.Icepick;
-import icepick.Icicle;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -35,11 +34,11 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
   // Format for output
   @SuppressLint("SimpleDateFormat") static SimpleDateFormat dateFormatter =
       new SimpleDateFormat("dd MMM yyyy");
+  static ArrayList<CalendarEventsData> cards = new ArrayList<>();
+  private static HomeFragment instance = null;
   CoordinatorLayout coordinatorLayout;
   CollapsibleCalendarView calendarView;
   CalendarEventsRVAdapter adapter;
-  @Icicle
-  ArrayList<CalendarEventsData> cards = new ArrayList<>();
   //2017-04-14 format from CCV
   @SuppressLint("SimpleDateFormat")
   SimpleDateFormat dateParser = new SimpleDateFormat("yyyy-mm-dd");
@@ -47,14 +46,26 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
   private FloatingActionButton addEventFab;
 
   public static HomeFragment newInstance() {
-    HomeFragment fragment = new HomeFragment();
-    return fragment;
+
+    if (instance == null) {
+      // new instance
+      instance = new HomeFragment();
+      // sets data to bundle
+      Bundle bundle = new Bundle();
+      bundle.putSerializable("CARDS", cards);
+
+      // set data to fragment
+      instance.setArguments(bundle);
+      return instance;
+    } else {
+
+      return instance;
+    }
   }
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    Icepick.restoreInstanceState(this, savedInstanceState);
 
     getActivity().setTitle(getString(R.string.app_name) + " | " + getString(R.string.title_home));
   }
@@ -62,7 +73,8 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
   @Override
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
       Bundle savedInstanceState) {
-    Icepick.restoreInstanceState(this, savedInstanceState);
+
+    cards = (ArrayList<CalendarEventsData>) getArguments().getSerializable("CARDS");
 
     return inflater.inflate(R.layout.fragment_home, container, false);
   }
@@ -110,22 +122,22 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
 
   private void setUpRecyclerView(View view) {
 
-    cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED, "", calendarView.getSelectedDate(),
-        calendarView.getSelectedDate()));
-    cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED, "", calendarView.getSelectedDate(),
-        calendarView.getSelectedDate()));
-    cards.add(new CalendarEventsData(EventType.TODO_ITEM, "", calendarView.getSelectedDate(),
-        calendarView.getSelectedDate()));
-    cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER, "", calendarView.getSelectedDate(),
-        calendarView.getSelectedDate()));
-    cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED, "", calendarView.getSelectedDate(),
-        calendarView.getSelectedDate()));
-    cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED, "", calendarView.getSelectedDate(),
-        calendarView.getSelectedDate()));
-    cards.add(new CalendarEventsData(EventType.TODO_ITEM, "", calendarView.getSelectedDate(),
-        calendarView.getSelectedDate()));
-    cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER, "", calendarView.getSelectedDate(),
-        calendarView.getSelectedDate()));
+    //cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED, "", calendarView.getSelectedDate(),
+    //    calendarView.getSelectedDate()));
+    //cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED, "", calendarView.getSelectedDate(),
+    //    calendarView.getSelectedDate()));
+    //cards.add(new CalendarEventsData(EventType.TODO_ITEM, "", calendarView.getSelectedDate(),
+    //    calendarView.getSelectedDate()));
+    //cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER, "", calendarView.getSelectedDate(),
+    //    calendarView.getSelectedDate()));
+    //cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED, "", calendarView.getSelectedDate(),
+    //    calendarView.getSelectedDate()));
+    //cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED, "", calendarView.getSelectedDate(),
+    //    calendarView.getSelectedDate()));
+    //cards.add(new CalendarEventsData(EventType.TODO_ITEM, "", calendarView.getSelectedDate(),
+    //    calendarView.getSelectedDate()));
+    //cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER, "", calendarView.getSelectedDate(),
+    //    calendarView.getSelectedDate()));
 
     RecyclerView calEventsRecyclerView = (RecyclerView) view.findViewById(R.id.cal_events);
 
@@ -161,6 +173,10 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
 
   @Override public void onHeaderClick() {
     updateArrow(calImageButton);
+  }
+
+  @Override public void setUserVisibleHint(boolean isVisibleToUser) {
+    super.setUserVisibleHint(isVisibleToUser);
   }
 
   @Override public void onSaveInstanceState(Bundle outState) {
