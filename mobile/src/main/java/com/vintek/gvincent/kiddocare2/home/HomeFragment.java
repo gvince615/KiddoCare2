@@ -110,22 +110,22 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
 
   private void setUpRecyclerView(View view) {
 
-    //cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED,
-    //    "", calendarView.getSelectedDate(), calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED,
-    //    "", calendarView.getSelectedDate(), calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.TODO_ITEM,
-    //    "", calendarView.getSelectedDate(), calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER,
-    //    "", calendarView.getSelectedDate(), calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED,
-    //    "", calendarView.getSelectedDate(), calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED,
-    //    "", calendarView.getSelectedDate(), calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.TODO_ITEM,
-    //    "", calendarView.getSelectedDate(), calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER,
-    //    "", calendarView.getSelectedDate(), calendarView.getSelectedDate()));
+    cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED, "", calendarView.getSelectedDate(),
+        calendarView.getSelectedDate()));
+    cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED, "", calendarView.getSelectedDate(),
+        calendarView.getSelectedDate()));
+    cards.add(new CalendarEventsData(EventType.TODO_ITEM, "", calendarView.getSelectedDate(),
+        calendarView.getSelectedDate()));
+    cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER, "", calendarView.getSelectedDate(),
+        calendarView.getSelectedDate()));
+    cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED, "", calendarView.getSelectedDate(),
+        calendarView.getSelectedDate()));
+    cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED, "", calendarView.getSelectedDate(),
+        calendarView.getSelectedDate()));
+    cards.add(new CalendarEventsData(EventType.TODO_ITEM, "", calendarView.getSelectedDate(),
+        calendarView.getSelectedDate()));
+    cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER, "", calendarView.getSelectedDate(),
+        calendarView.getSelectedDate()));
 
     RecyclerView calEventsRecyclerView = (RecyclerView) view.findViewById(R.id.cal_events);
 

@@ -1,5 +1,6 @@
 package com.vintek.gvincent.kiddocare2.home;
 
+import java.io.Serializable;
 import java.util.List;
 import org.joda.time.LocalDate;
 
@@ -7,7 +8,7 @@ import org.joda.time.LocalDate;
  * Created by gvincent on 4/14/17.
  */
 
-class CalendarEventsData {
+public class CalendarEventsData implements Serializable {
 
   private EventType eventType;
   private int eventImage;
