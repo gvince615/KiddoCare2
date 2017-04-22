@@ -2,33 +2,40 @@ package com.vintek.gvincent.kiddocare2.home;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.support.design.widget.TextInputLayout;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.github.florent37.singledateandtimepicker.dialog.DoubleDateAndTimePickerDialog;
+import com.satsuware.usefulviews.LabelledSpinner;
+import com.vintek.gvincent.kiddocare2.DatabaseHandler;
 import com.vintek.gvincent.kiddocare2.R;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import org.joda.time.LocalDate;
+import org.joda.time.LocalDateTime;
+
+import static com.vintek.gvincent.kiddocare2.home.HomeFragment.dateFormatter;
 
 /**
- * Created by gvincent on 4/14/17.
+ * Created by: gvincent on 4/14/17.
  */
 
 class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapter.EventsViewHolder> {
 
   private final Context context;
-  List<CalendarEventsData> cards;
+  private List<CalendarEventsData> cards;
+  private int position;
 
   CalendarEventsRVAdapter(Context context, List<CalendarEventsData> cards){
     this.cards = cards;
@@ -37,11 +44,10 @@ class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapt
 
   @Override public EventsViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
     View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.calendar_event_layout, viewGroup, false);
-    EventsViewHolder holder = new EventsViewHolder(v);
-    return holder;
+    return new EventsViewHolder(v);
   }
 
-  @Override public void onBindViewHolder(final EventsViewHolder holder, final int position) {
+  @Override public void onBindViewHolder(final EventsViewHolder holder, int position) {
     holder.cv.setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
         holder.editButton.setVisibility(View.VISIBLE);
@@ -50,7 +56,9 @@ class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapt
 
     holder.editButton.setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
-        showEditCalendarEventDialog(cards.get(position));
+        showEditCalendarEventDialog(cards.get(holder.getAdapterPosition()).getEventStartDateTime(),
+            cards.get(holder.getAdapterPosition()).getEventStartDateTime());
+
         holder.editButton.setVisibility(View.INVISIBLE);
       }
     });
@@ -58,8 +66,16 @@ class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapt
     holder.eventImage.setImageResource(cards.get(position).getEventImage());
     holder.eventTitle.setText(cards.get(position).getEventTitle());
     holder.eventDescription.setText(cards.get(position).getEventDescription());
-    holder.eventStartTime.setText(cards.get(position).getEventStartDateTime().toString());
-    holder.eventEndTime.setText(cards.get(position).getEventEndDateTime().toString());
+
+    LocalDateTime start = cards.get(position).getEventStartDateTime();
+    String startStr = dateFormatter.format(start.toDate());
+
+    LocalDateTime stop = cards.get(position).getEventEndDateTime();
+    String stopStr = dateFormatter.format(stop.toDate());
+
+    holder.eventStartTime.setText(startStr);
+    holder.eventEndTime.setText(stopStr);
+
   }
 
   void showEditCalendarEventDateTimeDialog() {
@@ -94,26 +110,63 @@ class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapt
             .tab0Text("Start")
             .tab1Text("End")
             .buttonOkText("Set Dates")
+
             .listener(new DoubleDateAndTimePickerDialog.Listener() {
               @Override public void onDateSelected(List<Date> dates) {
-                showEditCalendarEventDialog(new CalendarEventsData(EventType.CHILD_SCHEDULED, "",
-                    LocalDate.fromDateFields(dates.get(0)),
-                    LocalDate.fromDateFields(dates.get(1))));
+
+                showEditCalendarEventDialog(LocalDateTime.fromDateFields(dates.get(0)),
+                    LocalDateTime.fromDateFields(dates.get(1)));
               }
             });
     doubleBuilder.display();
   }
 
-  private void showEditCalendarEventDialog(final CalendarEventsData calendarEventsData) {
+  private void showEditCalendarEventDialog(final LocalDateTime localDateTimeStart,
+      final LocalDateTime localDateTimeEnd) {
 
     final Dialog dialog = new Dialog(context);
     dialog.setContentView(R.layout.calendar_event_dialog);
     dialog.setTitle("Title...");
-    Button cancelButton = (Button) dialog.findViewById(R.id.dialog_cancel);
+    final TextInputLayout eventDescription =
+        (TextInputLayout) dialog.findViewById(R.id.input_layout_description);
+    final LabelledSpinner eventTypeSpinner =
+        (LabelledSpinner) dialog.findViewById(R.id.event_type_spinner);
+
+    eventTypeSpinner.setItemsArray(EventType.getEventTypes());
+    eventTypeSpinner.setOnItemChosenListener(new LabelledSpinner.OnItemChosenListener() {
+      @Override
+      public void onItemChosen(View labelledSpinner, AdapterView<?> adapterView, View itemView,
+          int position, long id) {
+
+        if (position == 0) {
+          eventDescription.setHint("Scheduled Child's Name");
+        } else {
+          eventDescription.setHint("Event Description");
+        }
+        eventDescription.setEnabled(true);
+        setPosition(position);
+      }
+
+      @Override public void onNothingChosen(View labelledSpinner, AdapterView<?> adapterView) {
+        eventDescription.setEnabled(false);
+      }
+    });
+
+    final Button cancelButton = (Button) dialog.findViewById(R.id.dialog_cancel);
     Button saveButton = (Button) dialog.findViewById(R.id.dialog_save);
     saveButton.setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
+
+        EventType eventType = EventType.getEventType(getPosition());
+
+        CalendarEventsData calendarEventsData =
+            new CalendarEventsData(eventType.getType(), eventType.getImage(), eventType.getTitle(),
+                eventDescription.getEditText().getText().toString(), localDateTimeStart,
+                localDateTimeEnd);
+
         cards.add(calendarEventsData);
+        DatabaseHandler db = new DatabaseHandler(context);
+        db.addCalendarEvent(calendarEventsData);
         notifyDataSetChanged();
         dialog.dismiss();
       }
@@ -129,6 +182,14 @@ class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapt
     dialog.show();
   }
 
+  private int getPosition() {
+    return this.position;
+  }
+
+  private void setPosition(int position) {
+    this.position = position;
+  }
+
   @Override
   public void onAttachedToRecyclerView(RecyclerView recyclerView) {
     super.onAttachedToRecyclerView(recyclerView);
@@ -138,7 +199,7 @@ class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapt
     return cards.size();
   }
 
-  public static class EventsViewHolder extends RecyclerView.ViewHolder {
+  static class EventsViewHolder extends RecyclerView.ViewHolder {
     CardView cv;
 
     LinearLayout infoLayout;

@@ -5,7 +5,7 @@ android {
   buildToolsVersion "25.0.2"
   defaultConfig {
     applicationId "com.vintek.gvincent.kiddocare2"
-    minSdkVersion 21
+    minSdkVersion 23
     targetSdkVersion 25
     versionCode 1
     versionName "1.0"
@@ -38,6 +38,7 @@ dependencies {
   compile project(':com.github.gfranks.collapse.calendar-1.0')
   compile 'com.github.frankiesardo:icepick:2.3.6'
   compile 'com.github.frankiesardo:icepick-processor:2.3.6'
+  compile 'com.satsuware.lib:usefulviews:2.3.6'
 }
 
 

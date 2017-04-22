@@ -2,7 +2,7 @@ package com.vintek.gvincent.kiddocare2.home;
 
 import java.io.Serializable;
 import java.util.List;
-import org.joda.time.LocalDate;
+import org.joda.time.LocalDateTime;
 
 /**
  * Created by gvincent on 4/14/17.
@@ -10,31 +10,40 @@ import org.joda.time.LocalDate;
 
 public class CalendarEventsData implements Serializable {
 
-  private EventType eventType;
+  private int eventType;
   private int eventImage;
   private String eventTitle;
   private String eventDescription;
-  private LocalDate eventStartDateTime;
-  private LocalDate eventEndDateTime;
+  private LocalDateTime eventStartDateTime;
+  private LocalDateTime eventEndDateTime;
 
   private List<CalendarEventsData> calendarEvents;
 
-  CalendarEventsData(EventType eventType, String eventDescription, LocalDate eventStartDateTime, LocalDate eventEndDateTime) {
+  public CalendarEventsData(int eventType, int eventImage, String eventTitle,
+      String eventDescription, LocalDateTime eventStartDateTime, LocalDateTime eventEndDateTime) {
 
     this.eventType = eventType;
-    this.eventImage = eventType.image();
-    this.eventTitle = eventType.typeStr();
+    this.eventImage = eventImage;
+    this.eventTitle = eventTitle;
     this.eventDescription = eventDescription;
     this.eventStartDateTime = eventStartDateTime;
     this.eventEndDateTime = eventEndDateTime;
   }
 
-  public EventType getEventType() {
+  public int getEventType() {
     return eventType;
   }
 
-  public void setEventType(EventType eventType) {
+  public void setEventType(int eventType) {
     this.eventType = eventType;
+  }
+
+  public List<CalendarEventsData> getCalendarEvents() {
+    return calendarEvents;
+  }
+
+  public void setCalendarEvents(List<CalendarEventsData> calendarEvents) {
+    this.calendarEvents = calendarEvents;
   }
 
   public int getEventImage() {
@@ -61,19 +70,19 @@ public class CalendarEventsData implements Serializable {
     this.eventDescription = eventDescription;
   }
 
-  public LocalDate getEventStartDateTime() {
+  public LocalDateTime getEventStartDateTime() {
     return eventStartDateTime;
   }
 
-  public void setEventStartDateTime(LocalDate eventStartDateTime) {
+  public void setEventStartDateTime(LocalDateTime eventStartDateTime) {
     this.eventStartDateTime = eventStartDateTime;
   }
 
-  public LocalDate getEventEndDateTime() {
+  public LocalDateTime getEventEndDateTime() {
     return eventEndDateTime;
   }
 
-  public void setEventEndDateTime(LocalDate eventEndDateTime) {
+  public void setEventEndDateTime(LocalDateTime eventEndDateTime) {
     this.eventEndDateTime = eventEndDateTime;
   }
 }

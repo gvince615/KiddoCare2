@@ -1,10 +1,11 @@
 package com.vintek.gvincent.kiddocare2.home;
 
-import android.graphics.drawable.Drawable;
 import com.vintek.gvincent.kiddocare2.R;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
- * Created by gvincent on 4/14/17.
+ * Created by: gvincent on 4/22/17.
  */
 
 public enum EventType {
@@ -13,28 +14,69 @@ public enum EventType {
   TODO_ITEM("ToDo Item", 1, R.drawable.ic_format_list_checks_grey600_48dp),
   GENERIC_REMINDER("Reminder", 2, R.drawable.ic_clock_alert_grey600_48dp);
 
-  private final String typeStr;
-  private final int typeInt;
+  private static List<?> eventTypes;
+  private String title;
+  private int type;
+  private int image;
 
-  public int image() {
-    return image;
-  }
-
-  private final int image;
-
-  EventType(String typeStr, int typeInt, int image) {
-    this.typeStr = typeStr;
-    this.typeInt = typeInt;
+  EventType(String title, int type, int image) {
+    this.title = title;
+    this.type = type;
     this.image = image;
   }
 
-  public String typeStr() {
-    return typeStr;
+  public static List<String> getEventTypes() {
+    List<String> eventTypes = new ArrayList();
+    eventTypes.add(EventType.CHILD_SCHEDULED.getTitle());
+    eventTypes.add(EventType.TRIP_SCHEDULED.getTitle());
+    eventTypes.add(EventType.TODO_ITEM.getTitle());
+    eventTypes.add(EventType.GENERIC_REMINDER.getTitle());
+    return eventTypes;
   }
 
-  public int typeInt() {
-    return typeInt;
+  public static EventType getEventType(int event) {
+    EventType eventType;
+    switch (event) {
+      case 0:
+        eventType = EventType.CHILD_SCHEDULED;
+        break;
+      case 1:
+        eventType = EventType.TRIP_SCHEDULED;
+        break;
+      case 2:
+        eventType = EventType.TODO_ITEM;
+        break;
+      case 3:
+        eventType = EventType.GENERIC_REMINDER;
+        break;
+      default:
+        eventType = EventType.CHILD_SCHEDULED;
+        break;
+    }
+    return eventType;
   }
 
+  public String getTitle() {
+    return title;
+  }
+
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  public int getType() {
+    return type;
+  }
+
+  public void setType(int type) {
+    this.type = type;
+  }
+
+  public int getImage() {
+    return image;
+  }
+
+  public void setImage(int image) {
+    this.image = image;
+  }
 }
-

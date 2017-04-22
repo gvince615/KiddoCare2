@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import com.github.gfranks.collapsible.calendar.CollapsibleCalendarView;
 import com.github.gfranks.collapsible.calendar.model.CollapsibleState;
+import com.vintek.gvincent.kiddocare2.DatabaseHandler;
 import com.vintek.gvincent.kiddocare2.R;
 import icepick.Icepick;
 import java.text.ParseException;
@@ -33,7 +34,7 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
 
   // Format for output
   @SuppressLint("SimpleDateFormat") static SimpleDateFormat dateFormatter =
-      new SimpleDateFormat("dd MMM yyyy");
+      new SimpleDateFormat("dd MMM yyyy hh:mm a");
   static ArrayList<CalendarEventsData> cards = new ArrayList<>();
   private static HomeFragment instance = null;
   CoordinatorLayout coordinatorLayout;
@@ -73,8 +74,9 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
   @Override
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
       Bundle savedInstanceState) {
+    DatabaseHandler db = new DatabaseHandler(getContext());
 
-    cards = (ArrayList<CalendarEventsData>) getArguments().getSerializable("CARDS");
+    cards = (ArrayList<CalendarEventsData>) db.getAllCalendarEvents();
 
     return inflater.inflate(R.layout.fragment_home, container, false);
   }
@@ -160,7 +162,6 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
       e.printStackTrace();
     }
     // Printing the date
-    System.out.println(dateFormatter.format(date));
 
     Snackbar snackbar = Snackbar
         .make(coordinatorLayout, dateFormatter.format(date), Snackbar.LENGTH_LONG);

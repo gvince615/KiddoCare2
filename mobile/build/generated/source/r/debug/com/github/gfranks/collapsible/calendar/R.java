@@ -26,7 +26,7 @@ public final class R {
         public static final int ccv_smallHeader = 0x7f0100be;
         public static final int ccv_state = 0x7f0100b2;
         public static final int ccv_weekDayTextColor = 0x7f0100b8;
-        public static final int state_current = 0x7f010179;
+        public static final int state_current = 0x7f01017f;
     }
     public static final class drawable {
         public static final int bg_indicator = 0x7f020055;
@@ -34,17 +34,17 @@ public final class R {
         public static final int ic_arrow_right = 0x7f020083;
     }
     public static final class id {
-        public static final int day_view_indicator = 0x7f0f00a3;
-        public static final int day_view_text = 0x7f0f00a2;
-        public static final int days = 0x7f0f00a0;
-        public static final int header = 0x7f0f009c;
+        public static final int day_view_indicator = 0x7f0f00a8;
+        public static final int day_view_text = 0x7f0f00a7;
+        public static final int days = 0x7f0f00a5;
+        public static final int header = 0x7f0f00a1;
         public static final int month = 0x7f0f0026;
-        public static final int next = 0x7f0f009e;
-        public static final int prev = 0x7f0f009d;
-        public static final int selection_title = 0x7f0f009f;
+        public static final int next = 0x7f0f00a3;
+        public static final int prev = 0x7f0f00a2;
+        public static final int selection_title = 0x7f0f00a4;
         public static final int title = 0x7f0f0053;
         public static final int week = 0x7f0f0027;
-        public static final int weeks = 0x7f0f00a1;
+        public static final int weeks = 0x7f0f00a6;
     }
     public static final class layout {
         public static final int calendar_layout = 0x7f040023;
@@ -78,7 +78,7 @@ public final class R {
         public static final int CollapsibleCalendarView_ccv_smallHeader = 12;
         public static final int CollapsibleCalendarView_ccv_state = 0;
         public static final int CollapsibleCalendarView_ccv_weekDayTextColor = 6;
-        public static final int[] day = { 0x7f010179 };
+        public static final int[] day = { 0x7f01017f };
         public static final int day_state_current = 0;
     }
 }
