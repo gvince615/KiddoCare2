@@ -96,4 +96,14 @@
   </string>
   <string name="action_settings">Settings</string>
   <string name="title_account_settings">Account Settings</string>
+  <string name="hint_address_ln_1">Address Ln 1</string>
+  <string name="hint_address_ln_2">Address Ln 2</string>
+  <string name="hint_city">City</string>
+  <string name="hint_zip">Zip</string>
+  <string name="hint_state">State</string>
+  <string name="hint_time">Time</string>
+  <string name="hint_date">Date</string>
+  <string name="hint_first_name">First Name</string>
+  <string name="last_name">Last Name</string>
+  <string name="action_saveReg">Save Registration</string>
 </resources>

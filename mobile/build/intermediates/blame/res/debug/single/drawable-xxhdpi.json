@@ -24,12 +24,12 @@
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_delete_forever_white_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_file_chart_black_48dp.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_file_chart_black_48dp.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_file_chart_black_48dp.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_file_chart_black_48dp.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_delete_forever_grey600_48dp.png",
@@ -56,12 +56,12 @@
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_human_child_white_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_plus_white_48dp.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_account_plus_white_48dp.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_go_next.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_go_next.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_plus_white_48dp.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_account_plus_white_48dp.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_registration.png",
@@ -96,20 +96,20 @@
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_arrow_down_bold_hexagon_outline_white_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_calendar.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_calendar.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_arrow_up_bold_hexagon_outline_black_48dp.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_arrow_up_bold_hexagon_outline_black_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_settings_variant_black_48dp.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_account_settings_variant_black_48dp.png"
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_calendar.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_calendar.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/drawer_shadow.9.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_settings_variant_black_48dp.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_account_settings_variant_black_48dp.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_format_list_checks_white_48dp.png",
@@ -168,12 +168,12 @@
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_calendar_clock_grey600_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_events.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_events.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_file_chart_white_48dp.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_file_chart_white_48dp.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_events.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_events.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_plus_grey600_48dp.png",

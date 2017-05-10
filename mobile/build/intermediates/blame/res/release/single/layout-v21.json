@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/layout-v21/bottom_sheet_picker_bottom_sheet.xml",
+        "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/layout-v21/bottom_sheet_picker_bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

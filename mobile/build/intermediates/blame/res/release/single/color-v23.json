@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color-v23/abc_tint_btn_checkable.xml"
+    }
+]

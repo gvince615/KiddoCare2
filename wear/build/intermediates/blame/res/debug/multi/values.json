@@ -2365,10 +2365,10 @@
                     "file": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 1,
-                        "startColumn": 4,
-                        "startOffset": 16,
-                        "endColumn": 47,
-                        "endOffset": 59
+                        "startColumn": 2,
+                        "startOffset": 14,
+                        "endColumn": 45,
+                        "endOffset": 57
                     }
                 }
             },
@@ -3297,9 +3297,9 @@
                     "position": {
                         "startLine": 2,
                         "startColumn": 2,
-                        "startOffset": 62,
+                        "startOffset": 60,
                         "endColumn": 56,
-                        "endOffset": 116
+                        "endOffset": 114
                     }
                 }
             },
@@ -3316,9 +3316,9 @@
                     "position": {
                         "startLine": 3,
                         "startColumn": 2,
-                        "startOffset": 119,
+                        "startOffset": 117,
                         "endColumn": 58,
-                        "endOffset": 175
+                        "endOffset": 173
                     }
                 }
             },

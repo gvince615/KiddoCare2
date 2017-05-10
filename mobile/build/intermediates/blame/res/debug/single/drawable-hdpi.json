@@ -20,24 +20,24 @@
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_arrow_down_bold_hexagon_outline_white_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/vpi__tab_unselected_holo.9.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_unselected_holo.9.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_food_white_48dp.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_food_white_48dp.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/vpi__tab_unselected_holo.9.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_unselected_holo.9.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_clock_alert_grey600_48dp.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_clock_alert_grey600_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_calendar_clock_black_48dp.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_calendar_clock_black_48dp.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_plus_grey600_48dp.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_plus_grey600_48dp.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_calendar_clock_black_48dp.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_calendar_clock_black_48dp.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_food_grey600_48dp.png",
@@ -60,12 +60,12 @@
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_human_child_white_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_plus_black_48dp.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_plus_black_48dp.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_plus_black_48dp.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_plus_black_48dp.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_delete_forever_black_48dp.png",
@@ -180,12 +180,12 @@
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_file_chart_white_48dp.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/vpi__tab_selected_holo.9.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_selected_holo.9.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_drawer.png",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_drawer.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/vpi__tab_selected_holo.9.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_selected_holo.9.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_arrow_left.png",

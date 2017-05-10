@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
+        "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
+        "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable-v21/notification_action_background.xml"
+    }
+]

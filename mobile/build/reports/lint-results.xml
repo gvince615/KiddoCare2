@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 2.3.1">
+
+    <issue
+        id="InvalidPackage"
+        severity="Error"
+        message="Invalid package reference in library; not included in Android: `javax.tools`. Referenced from `icepick.processor.AbsWriter`."
+        category="Correctness"
+        priority="6"
+        summary="Package not included in Android"
+        explanation="This check scans through libraries looking for calls to APIs that are not included in Android.&#xA;&#xA;When you create Android projects, the classpath is set up such that you can only access classes in the API packages that are included in Android. However, if you add other projects to your libs/ folder, there is no guarantee that those .jar files were built with an Android specific classpath, and in particular, they could be accessing unsupported APIs such as java.applet.&#xA;&#xA;This check scans through library jars and looks for references to API packages that are not included in Android and flags these. This is only an error if your code calls one of the library classes which wind up referencing the unsupported package.">
+        <location
+            file="/Users/gvincent/.gradle/caches/modules-2/files-2.1/com.github.frankiesardo/icepick-processor/2.3.6/4f2556c14b3556d3f65845d9644fdef32ee13831/icepick-processor-2.3.6.jar"/>
+    </issue>
+
+    <issue
+        id="AllowBackup"
+        severity="Warning"
+        message="On SDK version 23 and up, your app data will be automatically backed up and restored on app install. Consider adding the attribute `android:fullBackupContent` to specify an `@xml` resource which configures which files to backup. More info: https://developer.android.com/training/backup/autosyncapi.html"
+        category="Security"
+        priority="3"
+        summary="AllowBackup/FullBackupContent Problems"
+        explanation="The `allowBackup` attribute determines if an application&apos;s data can be backed up and restored. It is documented at http://developer.android.com/reference/android/R.attr.html#allowBackup&#xA;&#xA;By default, this flag is set to `true`. When this flag is set to `true`, application data can be backed up and restored by the user using `adb backup` and `adb restore`.&#xA;&#xA;This may have security consequences for an application. `adb backup` allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. `adb restore` allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself.&#xA;&#xA;Setting `allowBackup=&quot;false&quot;` opts an application out of both backup and restore.&#xA;&#xA;To fix this warning, decide whether your application should support backup, and explicitly set `android:allowBackup=(true|false)&quot;`.&#xA;&#xA;If not set to false, and if targeting API 23 or later, lint will also warn that you should set `android:fullBackupContent` to configure auto backup."
+        url="https://developer.android.com/training/backup/autosyncapi.html"
+        urls="https://developer.android.com/training/backup/autosyncapi.html,http://developer.android.com/reference/android/R.attr.html#allowBackup"
+        errorLine1="  &lt;application"
+        errorLine2="  ^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/AndroidManifest.xml"
+            line="5"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="Recycle"
+        severity="Warning"
+        message="This `Cursor` should be freed up after use with `#close()`"
+        category="Performance"
+        priority="7"
+        summary="Missing `recycle()` calls"
+        explanation="Many resources, such as TypedArrays, VelocityTrackers, etc., should be recycled (with a `recycle()` call) after use. This lint check looks for missing `recycle()` calls."
+        errorLine1="    Cursor cursor = db.query(TABLE_CALENDAR_EVENTS, new String[] {"
+        errorLine2="                       ~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/java/com/vintek/gvincent/kiddocare2/DatabaseHandler.java"
+            line="93"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="Recycle"
+        severity="Warning"
+        message="This `Cursor` should be freed up after use with `#close()`"
+        category="Performance"
+        priority="7"
+        summary="Missing `recycle()` calls"
+        explanation="Many resources, such as TypedArrays, VelocityTrackers, etc., should be recycled (with a `recycle()` call) after use. This lint check looks for missing `recycle()` calls."
+        errorLine1="    Cursor cursor = db.rawQuery(selectQuery, null);"
+        errorLine2="                       ~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/java/com/vintek/gvincent/kiddocare2/DatabaseHandler.java"
+            line="121"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `AttendanceFragment` which has field `mContainer` pointing to `ViewGroup`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="  private static AttendanceFragment instance = null;"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/java/com/vintek/gvincent/kiddocare2/attendance/AttendanceFragment.java"
+            line="15"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `HomeFragment` which has field `coordinatorLayout` pointing to `CoordinatorLayout`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="  private static HomeFragment instance = null;"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/java/com/vintek/gvincent/kiddocare2/home/HomeFragment.java"
+            line="39"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `MealsFragment` which has field `mContainer` pointing to `ViewGroup`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="  private static MealsFragment instance = null;"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/java/com/vintek/gvincent/kiddocare2/meal/MealsFragment.java"
+            line="15"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `ReportsFragment` which has field `mContainer` pointing to `ViewGroup`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="  private static ReportsFragment instance = null;"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/java/com/vintek/gvincent/kiddocare2/reports/ReportsFragment.java"
+            line="15"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `SettingsFragment` which has field `mContainer` pointing to `ViewGroup`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="  private static SettingsFragment instance = null;"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/java/com/vintek/gvincent/kiddocare2/settings/SettingsFragment.java"
+            line="15"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="InefficientWeight"
+        severity="Warning"
+        message="Use a `layout_height` of `0dp` instead of `wrap_content` for better performance"
+        category="Performance"
+        priority="3"
+        summary="Inefficient layout weight"
+        explanation="When only a single widget in a LinearLayout defines a weight, it is more efficient to assign a width/height of `0dp` to it since it will absorb all the remaining space anyway. With a declared width/height of `0dp` it does not have to measure its own size first."
+        errorLine1="      android:layout_height=&quot;wrap_content&quot;"
+        errorLine2="      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_dialog.xml"
+            line="54"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="NestedWeights"
+        severity="Warning"
+        message="Nested weights are bad for performance"
+        category="Performance"
+        priority="3"
+        summary="Nested layout weights"
+        explanation="Layout weights require a widget to be measured twice. When a LinearLayout with non-zero weights is nested inside another LinearLayout with non-zero weights, then the number of measurements increase exponentially."
+        errorLine1="        android:layout_weight=&quot;.5&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_dialog.xml"
+            line="65"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.black_box` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/black_box.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.boy2` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/boy2.jpeg"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.calendar_border` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/calendar_border.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.textColorPrimary` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;color name=&quot;textColorPrimary&quot;>#ffffff&lt;/color>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/colors.xml"
+            line="6"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.colorGrey` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;color name=&quot;colorGrey&quot;>#a6a5a5&lt;/color>"
+        errorLine2="         ~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/colors.xml"
+            line="11"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.colorBlue` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;color name=&quot;colorBlue&quot;>#0000ff&lt;/color>"
+        errorLine2="         ~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/colors.xml"
+            line="12"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.colorRed` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;color name=&quot;colorRed&quot;>#ff0000&lt;/color>"
+        errorLine2="         ~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/colors.xml"
+            line="13"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.colorGreen` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;color name=&quot;colorGreen&quot;>#00ff00&lt;/color>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/colors.xml"
+            line="14"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.trans_white` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;color name=&quot;trans_white&quot;>#DDffffff&lt;/color>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/colors.xml"
+            line="16"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.trans` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;color name=&quot;trans&quot;>#00ffffff&lt;/color>"
+        errorLine2="         ~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/colors.xml"
+            line="17"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.kiddoCareLogoChildColor` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;color name=&quot;kiddoCareLogoChildColor&quot;>#3A9AF9&lt;/color>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/colors.xml"
+            line="19"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.text_size_small` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;dimen name=&quot;text_size_small&quot;>14sp&lt;/dimen>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/dimens.xml"
+            line="7"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.text_size_medium` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;dimen name=&quot;text_size_medium&quot;>18sp&lt;/dimen>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/dimens.xml"
+            line="8"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.text_size_large` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;dimen name=&quot;text_size_large&quot;>22sp&lt;/dimen>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/dimens.xml"
+            line="9"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.message_dialog_button_width` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;dimen name=&quot;message_dialog_button_width&quot;>90dp&lt;/dimen>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/dimens.xml"
+            line="13"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.message_dialog_button_height` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;dimen name=&quot;message_dialog_button_height&quot;>40dp&lt;/dimen>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/dimens.xml"
+            line="14"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.fragment_message_padding` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="  &lt;dimen name=&quot;fragment_message_padding&quot;>16dp&lt;/dimen>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/values/dimens.xml"
+            line="15"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.drawer_shadow` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/drawer_shadow.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/drawer_shadow.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/drawer_shadow.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/drawer_shadow.9.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.girl2` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/girl2.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_account_plus_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_account_plus_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_account_plus_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_account_plus_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_account_plus_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_account_plus_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_account_settings_variant_grey600_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_account_settings_variant_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_account_settings_variant_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_account_settings_variant_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_account_settings_variant_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_account_settings_variant_grey600_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_account_settings_variant_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_account_settings_variant_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_account_settings_variant_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_account_settings_variant_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_account_settings_variant_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_account_settings_variant_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_arrow_down_bold_hexagon_outline_black_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_arrow_down_bold_hexagon_outline_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_arrow_down_bold_hexagon_outline_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_arrow_down_bold_hexagon_outline_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_arrow_down_bold_hexagon_outline_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_arrow_down_bold_hexagon_outline_black_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_arrow_down_bold_hexagon_outline_grey600_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_arrow_down_bold_hexagon_outline_grey600_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_arrow_up_bold_hexagon_outline_black_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_arrow_up_bold_hexagon_outline_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_arrow_up_bold_hexagon_outline_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_arrow_up_bold_hexagon_outline_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_arrow_up_bold_hexagon_outline_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_arrow_up_bold_hexagon_outline_black_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_arrow_up_bold_hexagon_outline_grey600_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_arrow_up_bold_hexagon_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_arrow_up_bold_hexagon_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_arrow_up_bold_hexagon_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_arrow_up_bold_hexagon_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_arrow_up_bold_hexagon_outline_grey600_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_calendar` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_calendar.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_calendar.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_calendar.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_calendar.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_calendar_clock_black_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_calendar_clock_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_calendar_clock_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_calendar_clock_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_calendar_clock_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_calendar_clock_black_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_calendar_clock_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_calendar_clock_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_calendar_clock_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_calendar_clock_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_calendar_clock_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_calendar_clock_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_child` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_child.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_clock_alert_black_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_clock_alert_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_clock_alert_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_clock_alert_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_clock_alert_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_clock_alert_black_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_clock_alert_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_clock_alert_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_clock_alert_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_clock_alert_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_clock_alert_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_clock_alert_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_dashboard_black_24dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_dashboard_black_24dp.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_delete_forever_black_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_delete_forever_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_delete_forever_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_delete_forever_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_delete_forever_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_delete_forever_black_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_delete_forever_grey600_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_delete_forever_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_delete_forever_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_delete_forever_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_delete_forever_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_delete_forever_grey600_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_delete_forever_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_delete_forever_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_delete_forever_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_delete_forever_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_delete_forever_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_delete_forever_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_drawer` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_drawer.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_drawer.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_drawer.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_drawer.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_edit` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_edit.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_events` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_events.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_events.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_events.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_events.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_file_chart_grey600_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_file_chart_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_file_chart_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_file_chart_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_file_chart_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_file_chart_grey600_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_file_chart_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_file_chart_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_file_chart_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_file_chart_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_file_chart_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_file_chart_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_food_grey600_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_food_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_food_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_food_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_food_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_food_grey600_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_food_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_food_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_food_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_food_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_food_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_food_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_format_list_checks_black_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_format_list_checks_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_format_list_checks_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_format_list_checks_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_format_list_checks_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_format_list_checks_black_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_format_list_checks_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_format_list_checks_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_format_list_checks_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_format_list_checks_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_format_list_checks_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_format_list_checks_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_go_next` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_go_next.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_go_next.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_go_next.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_go_next.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_heart` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_heart.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_human_child_black_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_human_child_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_human_child_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_human_child_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_human_child_black_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_human_child_black_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_human_child_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_human_child_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_human_child_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_human_child_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_human_child_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_human_child_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.mipmap.ic_launcher` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-hdpi/ic_launcher.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-mdpi/ic_launcher.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xhdpi/ic_launcher.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xxhdpi/ic_launcher.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.mipmap.ic_launcher_round` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-hdpi/ic_launcher_round.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-mdpi/ic_launcher_round.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xhdpi/ic_launcher_round.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_myplate` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_myplate.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_myplate.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_myplate.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_myplate.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_notifications_black_24dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_notifications_black_24dp.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_parent` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_parent.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_pencil_box_outline_grey600_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_pencil_box_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_pencil_box_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_pencil_box_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_pencil_box_outline_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_pencil_box_outline_grey600_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_pencil_box_outline_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_pencil_box_outline_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_pencil_box_outline_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_pencil_box_outline_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_pencil_box_outline_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_pencil_box_outline_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_plus_grey600_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_plus_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_plus_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_plus_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_plus_grey600_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_plus_grey600_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_plus_white_48dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_plus_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_plus_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_plus_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_plus_white_48dp.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/ic_plus_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_registration` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/ic_registration.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/ic_registration.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/ic_registration.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/ic_registration.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_text` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_text.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.logo_blue_box` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/logo_blue_box.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.logo_green_box` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/logo_green_box.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.logo_pink_box` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/logo_pink_box.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.logo_yellow_box` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/logo_yellow_box.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.polkadotbg` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-nodpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/polkadotbg.jpg"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.red_box` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/red_box.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.vpi__tab_selected_focused_holo` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_selected_focused_holo.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/vpi__tab_selected_focused_holo.9.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.vpi__tab_selected_holo` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_selected_holo.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/vpi__tab_selected_holo.9.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.vpi__tab_selected_pressed_holo` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_selected_pressed_holo.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.vpi__tab_unselected_focused_holo` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_unselected_focused_holo.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.vpi__tab_unselected_holo` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_unselected_holo.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/vpi__tab_unselected_holo.9.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.vpi__tab_unselected_pressed_holo` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/vpi__tab_unselected_pressed_holo.9.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png"/>
+    </issue>
+
+    <issue
+        id="IconNoDpi"
+        severity="Warning"
+        message="The following images appear in both `-nodpi` and in a density folder: polkadotbg.jpg"
+        category="Usability:Icons"
+        priority="7"
+        summary="Icon appears in both `-nodpi` and dpi folders"
+        explanation="Bitmaps that appear in `drawable-nodpi` folders will not be scaled by the Android framework. If a drawable resource of the same name appears *both* in a `-nodpi` folder as well as a dpi folder such as `drawable-hdpi`, then the behavior is ambiguous and probably not intentional. Delete one or the other, or use different names for the icons.">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/polkadotbg.jpg"/>
+    </issue>
+
+    <issue
+        id="IconLauncherShape"
+        severity="Warning"
+        message="Launcher icon used as round icon did not have a circular shape"
+        category="Usability:Icons"
+        priority="6"
+        summary="The launcher icon shape should use a distinct silhouette"
+        explanation="According to the Android Design Guide (http://developer.android.com/design/style/iconography.html) your launcher icons should &quot;use a distinct silhouette&quot;, a &quot;three-dimensional, front view, with a slight perspective as if viewed from above, so that users perceive some depth.&quot;&#xA;&#xA;The unique silhouette implies that your launcher icon should not be a filled square."
+        url="http://developer.android.com/design/style/iconography.html"
+        urls="http://developer.android.com/design/style/iconography.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-hdpi/ic_launcher_new.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        severity="Warning"
+        message="The image `boy2.jpeg` varies significantly in its density-independent (dip) size across the various density versions: drawable-mdpi/boy2.jpeg: 392x383 dp (392x383 px), drawable-hdpi/boy2.jpeg: 261x255 dp (392x383 px), drawable-xhdpi/boy2.jpeg: 196x192 dp (392x383 px), drawable-xxhdpi/boy2.jpeg: 131x128 dp (392x383 px), drawable-xxxhdpi/boy2.jpeg: 98x96 dp (392x383 px)"
+        category="Usability:Icons"
+        priority="5"
+        summary="Icon density-independent size validation"
+        explanation="Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (`dip`) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/boy2.jpeg"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        severity="Warning"
+        message="The image `girl2.png` varies significantly in its density-independent (dip) size across the various density versions: drawable-mdpi/girl2.png: 563x376 dp (563x376 px), drawable-hdpi/girl2.png: 375x251 dp (563x376 px), drawable-xhdpi/girl2.png: 282x188 dp (563x376 px), drawable-xxhdpi/girl2.png: 188x125 dp (563x376 px), drawable-xxxhdpi/girl2.png: 141x94 dp (563x376 px)"
+        category="Usability:Icons"
+        priority="5"
+        summary="Icon density-independent size validation"
+        explanation="Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (`dip`) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/girl2.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        severity="Warning"
+        message="The image `polkadotbg.jpg` varies significantly in its density-independent (dip) size across the various density versions: drawable-mdpi/polkadotbg.jpg: 1080x1920 dp (1080x1920 px), drawable-hdpi/polkadotbg.jpg: 720x1280 dp (1080x1920 px), drawable-xhdpi/polkadotbg.jpg: 540x960 dp (1080x1920 px), drawable-xxhdpi/polkadotbg.jpg: 360x640 dp (1080x1920 px), drawable-xxxhdpi/polkadotbg.jpg: 270x480 dp (1080x1920 px)"
+        category="Usability:Icons"
+        priority="5"
+        summary="Icon density-independent size validation"
+        explanation="Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (`dip`) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/polkadotbg.jpg"/>
+    </issue>
+
+    <issue
+        id="IconDuplicatesConfig"
+        severity="Warning"
+        message="The `boy2.jpeg` icon has identical contents in the following configuration folders: drawable-hdpi, drawable-mdpi, drawable-xhdpi, drawable-xxhdpi, drawable-xxxhdpi"
+        category="Usability:Icons"
+        priority="5"
+        summary="Identical bitmaps across various configurations"
+        explanation="If an icon is provided under different configuration parameters such as `drawable-hdpi` or `-v11`, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/boy2.jpeg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/boy2.jpeg"/>
+    </issue>
+
+    <issue
+        id="IconDuplicatesConfig"
+        severity="Warning"
+        message="The `girl2.png` icon has identical contents in the following configuration folders: drawable-hdpi, drawable-mdpi, drawable-xhdpi, drawable-xxhdpi, drawable-xxxhdpi"
+        category="Usability:Icons"
+        priority="5"
+        summary="Identical bitmaps across various configurations"
+        explanation="If an icon is provided under different configuration parameters such as `drawable-hdpi` or `-v11`, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/girl2.png"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/girl2.png"/>
+    </issue>
+
+    <issue
+        id="IconDuplicatesConfig"
+        severity="Warning"
+        message="The `polkadotbg.jpg` icon has identical contents in the following configuration folders: drawable-hdpi, drawable-mdpi, drawable-nodpi, drawable-xhdpi, drawable-xxhdpi, drawable-xxxhdpi"
+        category="Usability:Icons"
+        priority="5"
+        summary="Identical bitmaps across various configurations"
+        explanation="If an icon is provided under different configuration parameters such as `drawable-hdpi` or `-v11`, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxxhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-nodpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi/polkadotbg.jpg"/>
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/polkadotbg.jpg"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/ic_child.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_child.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/ic_heart.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_heart.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/ic_parent.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_parent.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/ic_text.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_text.png"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in `drawable-hdpi`: ic_edit.png (found in drawable-xxxhdpi)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Icon densities validation"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.&#xA;&#xA;Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in `drawable-mdpi`: ic_edit.png (found in drawable-xxxhdpi)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Icon densities validation"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.&#xA;&#xA;Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-mdpi"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in `drawable-xhdpi`: ic_edit.png, vpi__tab_selected_focused_holo.9.png, vpi__tab_selected_holo.9.png, vpi__tab_selected_pressed_holo.9.png, vpi__tab_unselected_focused_holo.9.png... (2 more)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Icon densities validation"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.&#xA;&#xA;Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xhdpi"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in `drawable-xxhdpi`: ic_edit.png, vpi__tab_selected_focused_holo.9.png, vpi__tab_selected_holo.9.png, vpi__tab_selected_pressed_holo.9.png, vpi__tab_unselected_focused_holo.9.png... (2 more)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Icon densities validation"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.&#xA;&#xA;Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-xxhdpi"/>
+    </issue>
+
+    <issue
+        id="IconExtension"
+        severity="Warning"
+        message="Misleading file extension; named `.jpeg` but the file format is `png`"
+        category="Usability:Icons"
+        priority="3"
+        summary="Icon format does not match the file extension"
+        explanation="Ensures that icons have the correct file extension (e.g. a `.png` file is really in the PNG format and not for example a GIF file named `.png`.)">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable-hdpi/boy2.jpeg"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        severity="Warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        category="Usability"
+        priority="5"
+        summary="Button should be borderless"
+        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
+        url="http://developer.android.com/design/building-blocks/buttons.html"
+        urls="http://developer.android.com/design/building-blocks/buttons.html"
+        errorLine1="    &lt;Button"
+        errorLine2="    ^">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_dialog.xml"
+            line="59"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        severity="Warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        category="Usability"
+        priority="5"
+        summary="Button should be borderless"
+        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
+        url="http://developer.android.com/design/building-blocks/buttons.html"
+        urls="http://developer.android.com/design/building-blocks/buttons.html"
+        errorLine1="    &lt;Button"
+        errorLine2="    ^">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_dialog.xml"
+            line="70"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="GoogleAppIndexingWarning"
+        severity="Warning"
+        message="App is not indexable by Google Search; consider adding at least one Activity with an ACTION-VIEW intent filter. See issue explanation for more details."
+        category="Usability"
+        priority="5"
+        summary="Missing support for Firebase App Indexing"
+        explanation="Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search."
+        url="https://g.co/AppIndexing/AndroidStudio"
+        urls="https://g.co/AppIndexing/AndroidStudio"
+        errorLine1="  &lt;application"
+        errorLine2="  ^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/AndroidManifest.xml"
+            line="5"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="      &lt;ImageView"
+        errorLine2="      ^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_layout.xml"
+            line="18"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="    &lt;ImageButton"
+        errorLine2="    ^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_layout.xml"
+            line="91"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="      &lt;ImageButton"
+        errorLine2="      ^"
+        quickfix="studio">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/fragment_home.xml"
+            line="54"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="[I18N] Hardcoded string &quot;Event Description (or Child&apos;s Name)&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="          android:hint=&quot;Event Description (or Child&apos;s Name)&quot;"
+        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_dialog.xml"
+            line="34"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="[I18N] Hardcoded string &quot;Cancel&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:text=&quot;Cancel&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_dialog.xml"
+            line="67"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="[I18N] Hardcoded string &quot;Save&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:text=&quot;Save&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_dialog.xml"
+            line="78"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="[I18N] Hardcoded string &quot;Event Start:&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="            android:text=&quot;Event Start:&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_layout.xml"
+            line="60"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="[I18N] Hardcoded string &quot;Event End:&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="            android:text=&quot;Event End:&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_layout.xml"
+            line="80"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="[I18N] Hardcoded string &quot;Calendar events for the selected day&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="          android:text=&quot;Calendar events for the selected day&quot;"
+        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/fragment_home.xml"
+            line="48"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        severity="Warning"
+        message="When you define `paddingStart` you should probably also define `paddingEnd` for right-to-left symmetry"
+        category="Internationalization:Bidirectional Text"
+        priority="6"
+        summary="Padding and margin symmetry"
+        explanation="If you specify padding or margin on the left side of a layout, you should probably also specify padding on the right side (and vice versa) for right-to-left layout symmetry."
+        errorLine1="        android:paddingStart=&quot;5dp&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/calendar_event_layout.xml"
+            line="35"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        severity="Warning"
+        message="When you define `paddingStart` you should probably also define `paddingEnd` for right-to-left symmetry"
+        category="Internationalization:Bidirectional Text"
+        priority="6"
+        summary="Padding and margin symmetry"
+        explanation="If you specify padding or margin on the left side of a layout, you should probably also specify padding on the right side (and vice versa) for right-to-left layout symmetry."
+        errorLine1="          android:paddingStart=&quot;5dp&quot;"
+        errorLine2="          ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/layout/fragment_home.xml"
+            line="47"
+            column="11"/>
+    </issue>
+
+</issues>

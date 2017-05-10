@@ -1,0 +1,1950 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_belfast",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_belfast"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_dakar",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_dakar"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_addis_ababa",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_addis_ababa"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_istanbul",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_istanbul"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_dili",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_dili"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_glace_bay",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_glace_bay"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus3",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus3"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_freetown",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_freetown"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_la_rioja",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_la_rioja"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_nauru",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_nauru"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_saratov",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_saratov"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_atyrau",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_atyrau"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_qatar",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_qatar"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_kwajalein",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_kwajalein"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_brussels",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_brussels"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_podgorica",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_podgorica"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_caracas",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_caracas"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_mexico_city",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_mexico_city"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus4",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus4"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_dominica",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_dominica"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_chungking",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_chungking"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_chagos",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_chagos"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_kaliningrad",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_kaliningrad"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_douala",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_douala"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_cairo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_cairo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_urumqi",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_urumqi"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_libreville",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_libreville"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_lima",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_lima"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_abidjan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_abidjan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_ceuta",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_ceuta"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_punta_arenas",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_punta_arenas"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_nicosia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_nicosia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_tegucigalpa",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_tegucigalpa"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_sarajevo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_sarajevo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_moncton",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_moncton"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_maseru",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_maseru"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_antigua",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_antigua"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_whitehorse",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_whitehorse"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_bujumbura",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_bujumbura"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_fiji",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_fiji"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_goose_bay",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_goose_bay"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_sofia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_sofia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus5",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus5"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_salta",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_salta"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_jan_mayen",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_jan_mayen"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_coral_harbour",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_coral_harbour"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_zoneinfomap",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_zoneinfomap"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_casey",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_casey"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_est",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_est"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_midway",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_midway"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_auckland",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_auckland"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_funafuti",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_funafuti"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_mawson",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_mawson"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_andorra",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_andorra"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_nouakchott",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_nouakchott"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_rio_gallegos",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_rio_gallegos"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_mayotte",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_mayotte"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus6",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus6"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_dawson",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_dawson"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_harbin",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_harbin"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_galapagos",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_galapagos"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_khandyga",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_khandyga"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_tashkent",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_tashkent"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_anadyr",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_anadyr"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_miquelon",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_miquelon"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_amman",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_amman"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_seoul",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_seoul"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_irkutsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_irkutsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_samarkand",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_samarkand"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus7",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus7"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_chita",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_chita"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_kashgar",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_kashgar"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_shanghai",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_shanghai"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_djibouti",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_djibouti"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_vatican",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_vatican"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_monterrey",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_monterrey"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_moscow",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_moscow"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_el_salvador",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_el_salvador"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_mauritius",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_mauritius"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_nairobi",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_nairobi"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_riyadh",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_riyadh"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_vaduz",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_vaduz"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus8",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus8"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_swift_current",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_swift_current"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_perth",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_perth"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_casablanca",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_casablanca"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_porto_novo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_porto_novo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_tripoli",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_tripoli"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus9",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus9"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_troll",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_troll"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_cst6cdt",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_cst6cdt"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_hermosillo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_hermosillo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_arctic_longyearbyen",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_arctic_longyearbyen"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_st_kitts",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_st_kitts"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_kiev",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_kiev"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_lisbon",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_lisbon"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_niue",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_niue"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_minsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_minsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_iqaluit",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_iqaluit"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_oral",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_oral"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_anchorage",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_anchorage"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_cancun",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_cancun"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_jamaica",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_jamaica"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_ust_nera",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_ust_nera"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_hobart",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_hobart"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_adak",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_adak"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_indiana_vevay",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_indiana_vevay"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_porto_velho",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_porto_velho"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pst8pdt",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pst8pdt"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_pohnpei",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_pohnpei"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_comoro",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_comoro"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_sitka",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_sitka"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_baku",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_baku"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_pyongyang",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_pyongyang"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_ushuaia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_ushuaia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_eet",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_eet"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_dar_es_salaam",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_dar_es_salaam"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_phnom_penh",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_phnom_penh"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_tallinn",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_tallinn"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_juneau",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_juneau"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_bahia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_bahia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_edmonton",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_edmonton"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_thimphu",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_thimphu"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_kiritimati",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_kiritimati"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_ojinaga",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_ojinaga"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_phoenix",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_phoenix"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_novosibirsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_novosibirsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_eucla",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_eucla"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_jujuy",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_jujuy"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_7",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_7"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_guatemala",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_guatemala"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_ndjamena",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_ndjamena"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_johnston",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_johnston"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_puerto_rico",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_puerto_rico"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_hanoi",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_hanoi"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_maceio",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_maceio"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_harare",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_harare"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_karachi",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_karachi"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_faroe",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_faroe"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_tijuana",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_tijuana"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_volgograd",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_volgograd"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_guadeloupe",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_guadeloupe"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_rio_branco",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_rio_branco"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_hebron",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_hebron"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_toronto",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_toronto"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_comodrivadavia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_comodrivadavia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_chongqing",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_chongqing"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_simferopol",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_simferopol"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_6",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_6"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_kuwait",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_kuwait"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_kuching",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_kuching"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_vilnius",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_vilnius"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_aqtau",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_aqtau"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_nicosia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_nicosia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_astrakhan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_astrakhan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_asmera",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_asmera"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_hovd",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_hovd"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_yangon",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_yangon"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_broken_hill",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_broken_hill"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_indiana_winamac",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_indiana_winamac"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_st_vincent",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_st_vincent"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_pago_pago",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_pago_pago"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_ashgabat",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_ashgabat"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_hst",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_hst"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_palau",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_palau"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_9",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_9"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_matamoros",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_matamoros"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_godthab",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_godthab"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_buenos_aires",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_buenos_aires"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_st_thomas",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_st_thomas"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_port_of_spain",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_port_of_spain"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_yakutsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_yakutsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_mendoza",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_mendoza"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_mcmurdo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_mcmurdo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_uzhgorod",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_uzhgorod"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_tunis",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_tunis"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/android_wear_micro_apk.apk",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/generated/res/microapk/release/raw/android_wear_micro_apk.apk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_8",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_8"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_araguaina",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_araguaina"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_bogota",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_bogota"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_kerguelen",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_kerguelen"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_stanley",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_stanley"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_maldives",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_maldives"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_cambridge_bay",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_cambridge_bay"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_sakhalin",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_sakhalin"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_almaty",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_almaty"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_kampala",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_kampala"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_thunder_bay",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_thunder_bay"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_monrovia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_monrovia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_managua",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_managua"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_atikokan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_atikokan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_indiana_tell_city",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_indiana_tell_city"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_novokuznetsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_novokuznetsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_north_dakota_beulah",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_north_dakota_beulah"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_malta",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_malta"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_saipan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_saipan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_tirane",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_tirane"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_nassau",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_nassau"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_lusaka",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_lusaka"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_enderbury",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_enderbury"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_yekaterinburg",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_yekaterinburg"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_vostok",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_vostok"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_guam",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_guam"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_halifax",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_halifax"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_keep.xml",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_keep.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_madeira",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_madeira"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_aqtobe",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_aqtobe"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_malabo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_malabo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_tahiti",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_tahiti"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_jakarta",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_jakarta"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_chicago",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_chicago"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_amsterdam",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_amsterdam"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_tbilisi",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_tbilisi"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_oslo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_oslo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_kinshasa",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_kinshasa"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_dubai",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_dubai"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_indiana_marengo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_indiana_marengo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_fakaofo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_fakaofo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_rarotonga",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_rarotonga"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_north_dakota_new_salem",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_north_dakota_new_salem"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_blantyre",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_blantyre"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_noronha",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_noronha"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_montevideo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_montevideo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_prague",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_prague"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_macau",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_macau"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_sao_tome",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_sao_tome"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_la_paz",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_la_paz"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_bamako",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_bamako"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_busingen",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_busingen"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_majuro",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_majuro"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_boa_vista",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_boa_vista"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_rome",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_rome"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_utc",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_utc"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_skopje",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_skopje"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_scoresbysund",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_scoresbysund"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_jersey",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_jersey"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_khartoum",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_khartoum"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_kentucky_monticello",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_kentucky_monticello"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_cuiaba",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_cuiaba"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_tomsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_tomsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_london",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_london"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_brazzaville",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_brazzaville"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_banjul",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_banjul"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_kralendijk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_kralendijk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_dawson_creek",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_dawson_creek"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_wallis",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_wallis"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_dublin",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_dublin"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_mazatlan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_mazatlan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_bishkek",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_bishkek"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_rothera",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_rothera"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_resolute",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_resolute"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_gambier",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_gambier"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_asuncion",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_asuncion"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_belize",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_belize"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_mbabane",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_mbabane"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_vladivostok",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_vladivostok"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_north_dakota_center",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_north_dakota_center"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_paramaribo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_paramaribo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_luanda",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_luanda"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_san_marino",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_san_marino"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_melbourne",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_melbourne"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_norfolk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_norfolk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_kabul",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_kabul"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_indiana_knox",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_indiana_knox"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_menominee",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_menominee"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_luxembourg",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_luxembourg"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_reykjavik",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_reykjavik"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_mahe",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_mahe"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_ljubljana",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_ljubljana"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_niamey",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_niamey"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_aruba",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_aruba"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_port_moresby",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_port_moresby"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_pontianak",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_pontianak"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_riga",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_riga"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_reunion",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_reunion"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_montserrat",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_montserrat"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_macquarie",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_macquarie"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_conakry",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_conakry"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_san_luis",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_san_luis"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_lubumbashi",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_lubumbashi"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_srednekolymsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_srednekolymsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_1",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_1"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_grand_turk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_grand_turk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_magadan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_magadan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_helsinki",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_helsinki"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_cayman",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_cayman"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_rosario",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_rosario"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_kamchatka",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_kamchatka"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_creston",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_creston"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_pangnirtung",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_pangnirtung"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_catamarca",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_catamarca"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_cordoba",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_cordoba"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_beirut",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_beirut"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_krasnoyarsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_krasnoyarsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_indiana_petersburg",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_indiana_petersburg"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_st_helena",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_st_helena"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_chuuk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_chuuk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_mariehamn",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_mariehamn"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_santiago",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_santiago"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_maputo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_maputo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_panama",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_panama"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_havana",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_havana"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_gaborone",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_gaborone"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_campo_grande",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_campo_grande"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_omsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_omsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_palmer",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_palmer"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_zagreb",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_zagreb"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_fortaleza",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_fortaleza"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_tehran",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_tehran"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_3",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_3"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_guernsey",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_guernsey"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_merida",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_merida"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_belem",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_belem"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_sao_paulo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_sao_paulo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_inuvik",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_inuvik"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_canary",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_canary"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_bermuda",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_bermuda"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_singapore",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_singapore"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_metlakatla",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_metlakatla"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_belgrade",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_belgrade"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_chihuahua",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_chihuahua"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_anguilla",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_anguilla"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_tarawa",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_tarawa"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_2",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_2"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_fort_nelson",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_fort_nelson"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_south_pole",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_south_pole"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_tel_aviv",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_tel_aviv"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_cape_verde",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_cape_verde"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_vientiane",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_vientiane"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_bratislava",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_bratislava"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_boise",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_boise"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_baghdad",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_baghdad"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_efate",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_efate"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_kuala_lumpur",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_kuala_lumpur"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_bahrain",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_bahrain"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_montreal",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_montreal"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_guadalcanal",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_guadalcanal"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_5",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_5"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_bougainville",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_bougainville"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_martinique",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_martinique"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_detroit",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_detroit"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_rainy_river",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_rainy_river"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_aden",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_aden"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_st_johns",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_st_johns"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_4",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_4"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_dushanbe",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_dushanbe"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_tucuman",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_tucuman"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_bucharest",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_bucharest"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_barnaul",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_barnaul"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_colombo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_colombo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_juba",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_juba"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_guayaquil",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_guayaquil"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_thule",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_thule"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_mogadishu",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_mogadishu"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_gibraltar",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_gibraltar"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_isle_of_man",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_isle_of_man"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_taipei",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_taipei"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_south_georgia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_south_georgia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus12",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus12"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_timbuktu",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_timbuktu"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_gaza",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_gaza"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_lome",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_lome"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_blanc_sablon",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_blanc_sablon"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_denver",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_denver"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_13",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_13"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_santarem",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_santarem"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_yellowknife",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_yellowknife"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_costa_rica",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_costa_rica"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_atlantic_azores",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_atlantic_azores"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_stockholm",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_stockholm"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_ensenada",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_ensenada"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_manaus",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_manaus"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_famagusta",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_famagusta"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_12",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_12"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_accra",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_accra"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_pitcairn",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_pitcairn"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_los_angeles",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_los_angeles"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_brunei",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_brunei"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_muscat",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_muscat"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_noumea",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_noumea"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_cayenne",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_cayenne"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_nipigon",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_nipigon"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_indiana_indianapolis",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_indiana_indianapolis"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_wake",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_wake"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_grenada",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_grenada"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_guyana",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_guyana"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_davis",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_davis"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_11",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_11"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_port_au_prince",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_port_au_prince"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_zurich",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_zurich"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_bangui",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_bangui"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_budapest",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_budapest"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_tiraspol",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_tiraspol"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_samara",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_samara"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_qyzylorda",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_qyzylorda"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_paris",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_paris"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_yakutat",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_yakutat"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_ulyanovsk",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_ulyanovsk"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_brisbane",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_brisbane"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_ulaanbaatar",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_ulaanbaatar"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_nome",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_nome"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_mst",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_mst"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_eirunepe",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_eirunepe"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_10",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_10"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_syowa",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_syowa"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_windhoek",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_windhoek"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_argentina_san_juan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_argentina_san_juan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_tongatapu",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_tongatapu"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_warsaw",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_warsaw"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_madrid",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_madrid"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_ho_chi_minh",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_ho_chi_minh"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_athens",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_athens"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_lord_howe",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_lord_howe"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_curacao",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_curacao"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_marigot",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_marigot"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_santo_domingo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_santo_domingo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_kigali",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_kigali"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_recife",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_recife"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_est5edt",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_est5edt"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_manila",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_manila"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_sydney",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_sydney"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_kathmandu",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_kathmandu"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_lagos",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_lagos"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_yerevan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_yerevan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_chatham",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_chatham"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_monaco",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_monaco"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_dhaka",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_dhaka"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_kosrae",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_kosrae"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_new_york",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_new_york"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_apia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_apia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_winnipeg",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_winnipeg"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_adelaide",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_adelaide"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_uct",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_uct"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_makassar",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_makassar"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_barbados",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_barbados"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_tokyo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_tokyo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_lindeman",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_lindeman"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_kolkata",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_kolkata"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_asmara",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_asmara"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_honolulu",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_honolulu"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_currie",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_currie"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_australia_darwin",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_australia_darwin"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_cet",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_cet"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_kentucky_louisville",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_kentucky_louisville"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_marquesas",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_marquesas"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_chisinau",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_chisinau"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_wet",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_wet"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_istanbul",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_istanbul"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_antananarivo",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_antananarivo"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_kirov",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_kirov"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_bissau",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_bissau"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_johannesburg",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_johannesburg"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_bahia_banderas",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_bahia_banderas"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_danmarkshavn",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_danmarkshavn"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_lower_princes",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_lower_princes"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus1",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus1"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus10",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus10"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_tortola",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_tortola"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_st_barthelemy",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_st_barthelemy"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_choibalsan",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_choibalsan"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_damascus",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_damascus"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_jerusalem",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_jerusalem"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_cocos",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_cocos"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_bangkok",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_bangkok"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_st_lucia",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_st_lucia"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_el_aaiun",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_el_aaiun"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_jayapura",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_jayapura"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_zaporozhye",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_zaporozhye"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_regina",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_regina"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_rankin_inlet",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_rankin_inlet"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_berlin",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_berlin"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_ouagadougou",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_ouagadougou"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus2",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus2"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_antarctica_dumontdurville",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_antarctica_dumontdurville"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmtplus11",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmtplus11"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_vienna",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_vienna"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_indian_christmas",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_indian_christmas"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_indiana_vincennes",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_indiana_vincennes"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_asia_hong_kong",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_asia_hong_kong"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_mst7mdt",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_mst7mdt"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_met",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_met"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_america_vancouver",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_america_vancouver"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_pacific_easter",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_pacific_easter"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_etc_gmt_14",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_etc_gmt_14"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_africa_algiers",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_africa_algiers"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/raw/joda_europe_copenhagen",
+        "source": "/Users/gvincent/.android/build-cache/19ecadd5991d72bc63c326f64230f041432a81cc/output/res/raw/joda_europe_copenhagen"
+    }
+]

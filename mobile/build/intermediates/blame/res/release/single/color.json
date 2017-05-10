@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/design_error.xml",
+        "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/double_date_picker_button_text_selector.xml",
+        "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/color/double_date_picker_button_text_selector.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/date_picker_am_pm_text_selector.xml",
+        "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/color/date_picker_am_pm_text_selector.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/double_date_picker_button_text_selector_ios.xml",
+        "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/color/double_date_picker_button_text_selector_ios.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/color/abc_secondary_text_material_light.xml"
+    }
+]

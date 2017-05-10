@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/mipmap-xxxhdpi/ic_launcher_new.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher_new.png"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/release/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

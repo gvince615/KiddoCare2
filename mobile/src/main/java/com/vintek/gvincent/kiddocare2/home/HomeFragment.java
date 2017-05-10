@@ -74,9 +74,10 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
   @Override
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
       Bundle savedInstanceState) {
-    DatabaseHandler db = new DatabaseHandler(getContext());
 
+    DatabaseHandler db = new DatabaseHandler(getContext());
     cards = (ArrayList<CalendarEventsData>) db.getAllCalendarEvents();
+    db.close();
 
     return inflater.inflate(R.layout.fragment_home, container, false);
   }
@@ -123,23 +124,6 @@ public class HomeFragment extends Fragment implements CollapsibleCalendarView.Li
   }
 
   private void setUpRecyclerView(View view) {
-
-    //cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED, "", calendarView.getSelectedDate(),
-    //    calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED, "", calendarView.getSelectedDate(),
-    //    calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.TODO_ITEM, "", calendarView.getSelectedDate(),
-    //    calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER, "", calendarView.getSelectedDate(),
-    //    calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.CHILD_SCHEDULED, "", calendarView.getSelectedDate(),
-    //    calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.TRIP_SCHEDULED, "", calendarView.getSelectedDate(),
-    //    calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.TODO_ITEM, "", calendarView.getSelectedDate(),
-    //    calendarView.getSelectedDate()));
-    //cards.add(new CalendarEventsData(EventType.GENERIC_REMINDER, "", calendarView.getSelectedDate(),
-    //    calendarView.getSelectedDate()));
 
     RecyclerView calEventsRecyclerView = (RecyclerView) view.findViewById(R.id.cal_events);
 

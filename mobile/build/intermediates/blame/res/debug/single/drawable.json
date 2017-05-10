@@ -28,12 +28,12 @@
         "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
@@ -60,24 +60,24 @@
         "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/double_date_picker_button_background_selector_ios.xml",
         "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/drawable/double_date_picker_button_background_selector_ios.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
@@ -216,12 +216,12 @@
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_text.png"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/ic_home_black_24dp.xml",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -256,12 +256,12 @@
         "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/ic_parent.png",
-        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_parent.png"
-    },
-    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/double_date_picker_button_background_selector.xml",
         "source": "/Users/gvincent/.android/build-cache/f35dd707bc37cb160281490169c2c2302c87c6d2/output/res/drawable/double_date_picker_button_background_selector.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/ic_parent.png",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/drawable/ic_parent.png"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",

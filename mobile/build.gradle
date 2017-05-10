@@ -39,6 +39,7 @@ dependencies {
   compile 'com.github.frankiesardo:icepick:2.3.6'
   compile 'com.github.frankiesardo:icepick-processor:2.3.6'
   compile 'com.satsuware.lib:usefulviews:2.3.6'
+  compile 'net.opacapp:multiline-collapsingtoolbar:1.4.0'
 }
 
 

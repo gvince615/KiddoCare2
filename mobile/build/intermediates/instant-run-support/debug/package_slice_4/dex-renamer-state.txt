@@ -1,4 +1,4 @@
-#Wed Apr 19 12:59:48 EDT 2017
+#Wed May 10 19:10:08 EDT 2017
 base.0=/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
 renamed.0=classes.dex
 file.0=/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

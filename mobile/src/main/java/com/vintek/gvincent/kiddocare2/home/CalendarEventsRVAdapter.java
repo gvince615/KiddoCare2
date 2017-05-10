@@ -79,6 +79,13 @@ class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapt
   }
 
   void showEditCalendarEventDateTimeDialog() {
+
+    DoubleDateAndTimePickerDialog.Builder doubleBuilder = getDoubleDateandTimeDialog();
+    doubleBuilder.display();
+  }
+
+  private DoubleDateAndTimePickerDialog.Builder getDoubleDateandTimeDialog() {
+
     // custom dialog
     final Date now = new Date();
     final Calendar calendarMin = Calendar.getInstance();
@@ -92,33 +99,30 @@ class CalendarEventsRVAdapter extends RecyclerView.Adapter<CalendarEventsRVAdapt
     final Date minDate = calendarMin.getTime();
     final Date maxDate = calendarMax.getTime();
 
-    DoubleDateAndTimePickerDialog.Builder doubleBuilder =
-        new DoubleDateAndTimePickerDialog.Builder(context).backgroundColor(
+    return new DoubleDateAndTimePickerDialog.Builder(context).backgroundColor(
+        ResourcesCompat.getColor(context.getResources(), R.color.colorWhite, null))
+        .mainColor(
+            ResourcesCompat.getColor(context.getResources(), R.color.kiddoCareLogoTextColor, null))
+        .titleTextColor(
             ResourcesCompat.getColor(context.getResources(), R.color.colorWhite, null))
-            .mainColor(
-                ResourcesCompat.getColor(context.getResources(), R.color.kiddoCareLogoTextColor,
-                    null))
-            .titleTextColor(
-                ResourcesCompat.getColor(context.getResources(), R.color.colorBlack, null))
-            .minutesStep(15)
-            .minDateRange(minDate)
-            .maxDateRange(maxDate)
-            .tab0Date(now)
-            .tab1Date(new Date(now.getTime() + TimeUnit.HOURS.toMillis(1)))
-            .mustBeOnFuture()
-            .title("Set Start and End dates")
-            .tab0Text("Start")
-            .tab1Text("End")
-            .buttonOkText("Set Dates")
+        .minutesStep(15)
+        .minDateRange(minDate)
+        .maxDateRange(maxDate)
+        .tab0Date(now)
+        .tab1Date(new Date(now.getTime() + TimeUnit.HOURS.toMillis(1)))
+        .mustBeOnFuture()
+        .title("Set Start and End dates")
+        .tab0Text("Start")
+        .tab1Text("End")
+        .buttonOkText("Set Dates")
 
-            .listener(new DoubleDateAndTimePickerDialog.Listener() {
-              @Override public void onDateSelected(List<Date> dates) {
+        .listener(new DoubleDateAndTimePickerDialog.Listener() {
+          @Override public void onDateSelected(List<Date> dates) {
 
-                showEditCalendarEventDialog(LocalDateTime.fromDateFields(dates.get(0)),
-                    LocalDateTime.fromDateFields(dates.get(1)));
-              }
-            });
-    doubleBuilder.display();
+            showEditCalendarEventDialog(LocalDateTime.fromDateFields(dates.get(0)),
+                LocalDateTime.fromDateFields(dates.get(1)));
+          }
+        });
   }
 
   private void showEditCalendarEventDialog(final LocalDateTime localDateTimeStart,

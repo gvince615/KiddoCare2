@@ -1,0 +1,134 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/childDataCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    custom:cardBackgroundColor="@color/trans_white"
+    custom:cardCornerRadius="5dp"
+    custom:cardElevation="3dp"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="4"
+      >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/cardview_light_background"
+          android:orientation="horizontal"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+          <TextView
+              android:id="@+id/childLastName"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="LastName"
+              android:textSize="@dimen/text_size_large"
+              android:textStyle="bold|italic"
+              />
+
+          <TextView
+              android:id="@+id/comma"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text=","
+              android:textSize="@dimen/text_size_large"
+              android:textStyle="bold|italic"
+              />
+
+          <TextView
+              android:id="@+id/childFirstName"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="6dp"
+              android:text="FirstName"
+              android:textSize="@dimen/text_size_large"
+              android:textStyle="bold|italic"
+              />
+        </LinearLayout>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="5dp"
+          android:orientation="vertical"
+          >
+        <TextView
+            android:id="@+id/childDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Child Birthdate"
+            android:textSize="@dimen/text_size_medium"
+            />
+        <TextView
+            android:id="@+id/childAgeBracket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Child Age Bracket"
+            android:textSize="@dimen/text_size_medium"
+            />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="5dp"
+          android:orientation="horizontal"
+          android:weightSum="2"
+          >
+        <TextView
+            android:id="@+id/childClockIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="In:"
+            android:textSize="@dimen/text_size_medium"
+            />
+        <TextView
+            android:id="@+id/childClockOut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Out:"
+            android:textSize="@dimen/text_size_medium"
+            />
+      </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+      <ImageView
+          android:id="@+id/childImage"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:contentDescription="Child Image"
+          android:scaleType="centerInside"
+          />
+    </LinearLayout>
+  </LinearLayout>
+</android.support.v7.widget.CardView>

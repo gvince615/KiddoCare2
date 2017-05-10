@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/anim/shrink_to_middle.xml",
+        "source": "/Users/gvincent/.android/build-cache/fe592b1c0989b4991bf521ca310b620b031cc3c2/output/res/anim/shrink_to_middle.xml"
+    },
+    {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
         "source": "/Users/gvincent/.android/build-cache/7e2869cd28c2064618bf7cdee488e51c033329c3/output/res/anim/abc_fade_out.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
         "source": "/Users/gvincent/.android/build-cache/5034666b98b7afa59c648fe520992beda46a24dc/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/anim/grow_from_middle.xml",
+        "source": "/Users/gvincent/.android/build-cache/fe592b1c0989b4991bf521ca310b620b031cc3c2/output/res/anim/grow_from_middle.xml"
     },
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",

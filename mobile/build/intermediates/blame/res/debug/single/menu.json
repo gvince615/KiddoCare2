@@ -6,5 +6,9 @@
     {
         "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/menu/navigation.xml",
         "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/res/merged/debug/menu/menu_reg.xml",
+        "source": "/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/src/main/res/menu/menu_reg.xml"
     }
 ]

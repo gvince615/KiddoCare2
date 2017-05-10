@@ -1,0 +1,102 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+uses-feature#android.hardware.type.watch
+ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:5:3-62
+	android:name
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:5:17-59
+application
+ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:7:3-22:17
+MERGED from [com.google.android.support:wearable:2.0.1] /Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/AndroidManifest.xml:6:3-8:17
+MERGED from [com.android.support:percent:25.2.0] /Users/gvincent/.android/build-cache/28307132ef9ef0834e82c725aa654ac0901943a2/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] /Users/gvincent/.android/build-cache/0cf8d63c8bb3b87f6344c2668a42ed48f859f52c/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/gvincent/.android/build-cache/e09132bf222acb2ab0d8dc3d5ec43cf1c614654a/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincent/.android/build-cache/6081a8619d67bf597096640d1290f8a021966eea/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /Users/gvincent/.android/build-cache/fdcf0aa72e77c66ee80f61d1ada4fbbfec81f1e0/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/gvincent/.android/build-cache/4cbaa315dcb57083db94563b6342f8f9f49f0c58/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/gvincent/.android/build-cache/4db81597cdcf1e1f5d002b132d23f75ccd7211b9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/gvincent/.android/build-cache/d1321b2c36c0fbca5b4d23f1fdbc2eddcc264196/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/gvincent/.android/build-cache/3f189480963b36c8df953d91d91eedcc670d9e38/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/gvincent/.android/build-cache/6d3019671d1a67b131e989bfcabf27aa85eb1a2c/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:10:7-39
+	android:supportsRtl
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:11:7-33
+	android:allowBackup
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:8:7-33
+	android:icon
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:9:7-41
+	android:theme
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:12:7-57
+activity#com.vintek.gvincent.kiddocare2.MainActivity
+ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:13:5-21:16
+	android:label
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:14:9-41
+	android:name
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:15:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:16:7-20:23
+action#android.intent.action.MAIN
+ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:17:9-61
+	android:name
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:17:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:19:9-69
+	android:name
+		ADDED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml:19:19-66
+uses-sdk
+INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.support:wearable:2.0.1] /Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/AndroidManifest.xml:4:3-70
+MERGED from [com.android.support:percent:25.2.0] /Users/gvincent/.android/build-cache/28307132ef9ef0834e82c725aa654ac0901943a2/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/gvincent/.android/build-cache/f255df18f30851ca0a4a35695d385be0b49a417c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] /Users/gvincent/.android/build-cache/0cf8d63c8bb3b87f6344c2668a42ed48f859f52c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/gvincent/.android/build-cache/e09132bf222acb2ab0d8dc3d5ec43cf1c614654a/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincent/.android/build-cache/6081a8619d67bf597096640d1290f8a021966eea/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /Users/gvincent/.android/build-cache/fdcf0aa72e77c66ee80f61d1ada4fbbfec81f1e0/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/gvincent/.android/build-cache/4cbaa315dcb57083db94563b6342f8f9f49f0c58/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/gvincent/.android/build-cache/4db81597cdcf1e1f5d002b132d23f75ccd7211b9/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/gvincent/.android/build-cache/d1321b2c36c0fbca5b4d23f1fdbc2eddcc264196/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/gvincent/.android/build-cache/3f189480963b36c8df953d91d91eedcc670d9e38/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/gvincent/.android/build-cache/6d3019671d1a67b131e989bfcabf27aa85eb1a2c/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] /Users/gvincent/.android/build-cache/fdcf0aa72e77c66ee80f61d1ada4fbbfec81f1e0/output/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+		INJECTED from /Users/gvincent/Documents/studio_projects/KiddoCare2/wear/src/main/AndroidManifest.xml
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.0.1] /Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/AndroidManifest.xml:7:5-88
+	android:required
+		ADDED from [com.google.android.support:wearable:2.0.1] /Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/AndroidManifest.xml:7:62-86
+	android:name
+		ADDED from [com.google.android.support:wearable:2.0.1] /Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/AndroidManifest.xml:7:19-61
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/gvincent/.android/build-cache/8bc08e5b0cade51446fc5287978ba8a1fc7e5eb2/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincent/.android/build-cache/6081a8619d67bf597096640d1290f8a021966eea/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincent/.android/build-cache/6081a8619d67bf597096640d1290f8a021966eea/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gvincent/.android/build-cache/6081a8619d67bf597096640d1290f8a021966eea/output/AndroidManifest.xml:20:20-65

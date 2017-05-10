@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/ic_more_horiz_24dp_wht.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/ic_more_horiz_24dp_wht.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/action_item_background.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/action_item_background.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/ic_cc_settings_button_bottom.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/ic_cc_settings_button_bottom.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/ic_more_vert_24dp_wht.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/ic_more_vert_24dp_wht.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/ic_cc_settings_button_e.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/ic_cc_settings_button_e.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/ic_expand_less_white_22.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/ic_expand_less_white_22.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/ic_cc_settings_button_top.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/ic_cc_settings_button_top.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/action_item_icon_background.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/action_item_icon_background.xml"
+    },
+    {
+        "merged": "/Users/gvincent/Documents/studio_projects/KiddoCare2/wear/build/intermediates/res/merged/release/drawable-v23/ic_cc_settings_button_center.xml",
+        "source": "/Users/gvincent/.android/build-cache/1fd0e65829f85139fd51a04e8c98f0a8eaba1c6d/output/res/drawable-v23/ic_cc_settings_button_center.xml"
+    }
+]

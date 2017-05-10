@@ -2,87 +2,137 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1492648726396"
+    timestamp="1494458234390"
     token="5046604809894437083"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="217" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="11" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
+        location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
-        timestamp="1492644637073"
+        timestamp="1494455407084"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/outputs/apk/mobile-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1494455696609"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1494456612986"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/outputs/apk/mobile-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1492648609205"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/outputs/apk/mobile-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1492648726396"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1494457807248"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1494457847432"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/outputs/apk/mobile-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1494457870055"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/builds/debug/1494457870055/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1494458234390"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/gvincent/Documents/studio_projects/KiddoCare2/mobile/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
