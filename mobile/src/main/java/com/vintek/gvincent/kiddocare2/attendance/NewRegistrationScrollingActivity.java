@@ -134,11 +134,10 @@ public class NewRegistrationScrollingActivity extends AppCompatActivity {
         (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
 
     toolbar.setTitle(mExpandedTitle);
-
     collapsingToolbarLayout.setCollapsedTitleTextColor(getResources().getColor(R.color.colorWhite));
     collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(R.color.colorWhite));
     collapsingToolbarLayout.setExpandedTitleGravity(Gravity.START);
-    collapsingToolbarLayout.setCollapsedTitleGravity(Gravity.END);
+    collapsingToolbarLayout.setCollapsedTitleGravity(Gravity.START);
     collapsingToolbarLayout.setContentScrimColor(getResources().getColor(R.color.colorBlack));
 
     AppBarLayout appbar = (AppBarLayout) findViewById(R.id.appbar);

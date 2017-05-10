@@ -30,6 +30,7 @@
         android:layout_height="match_parent"
         android:background="@color/colorBlack"
         android:fitsSystemWindows="true"
+        app:collapsedTitleGravity="start|left"
         app:expandedTitleMarginEnd="200dp"
         app:expandedTitleMarginStart="16dp"
         app:layout_scrollFlags="scroll|exitUntilCollapsed"
