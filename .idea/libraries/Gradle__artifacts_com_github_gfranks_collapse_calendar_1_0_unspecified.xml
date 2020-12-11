@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:com.github.gfranks.collapse.calendar-1.0:unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/com.github.gfranks.collapse.calendar-1.0/build/.transforms/889666509835a2fe945e12432c3b3e0e/jetified-com.github.gfranks.collapse.calendar-1.0/res" />
+      <root url="file://$PROJECT_DIR$/com.github.gfranks.collapse.calendar-1.0/build/.transforms/889666509835a2fe945e12432c3b3e0e/jetified-com.github.gfranks.collapse.calendar-1.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/com.github.gfranks.collapse.calendar-1.0/build/.transforms/889666509835a2fe945e12432c3b3e0e/jetified-com.github.gfranks.collapse.calendar-1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

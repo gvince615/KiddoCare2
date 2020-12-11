@@ -1,12 +1,12 @@
 package com.vintek.gvincent.kiddocare2.attendance;
 
-import android.support.design.widget.TextInputEditText;
-import android.support.design.widget.TextInputLayout;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.vintek.gvincent.kiddocare2.R;
 
 public class DiscountHolder extends RecyclerView.ViewHolder {
